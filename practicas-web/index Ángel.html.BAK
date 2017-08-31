@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>RESEÑAS</title>
+	</head>
+	<body>
+		<div>
+			<header>
+				<h1>LogoReseñas</h1>
+				<h2>Perfil</h2>
+			</header>
+			<nav>
+				<p>General</p>
+				<p>Películas</p>
+				<p>Series</p>
+				<p>Música</p>
+				<p>Videojuegos</p>
+			</nav>
+			<div>
+				<main>
+					<article>
+						<header>
+							<h1>General</h1>
+							<p>Aquí irían los contenidos del apartado General</p>
+						</header>
+						<section>
+							<p>Aquí irán los cuadros de cada sección</p>
+						</section>
+						<footer>
+							<p>Noticia escrita por Angel Esqueda en el 2019</p>
+						</footer>
+						<aside>
+							<h4>Comentarios</h4>
+							<article>
+								<section>
+									<p>Excelente reseña, esa película me encantó!.</p>
+								</section>
+								<footer>
+									<p>Reseña escrita por Jaimito.</p>
+								</footer>
+							</article>
+							<article>
+								<section>
+									<p>Me ha gustado mucho esta película, sigan así :D.</p>
+								</section>
+								<footer>
+									<p>Reseña escrita por Juanito.</p>
+								</footer>
+							</article>
+						</aside>
+					</article>
+				</main>
+				<aside>
+					<div>
+						<h6>Síguenos</h6>
+						<p>Twitter</p>
+						<p>Facebook</p>
+						<p>Youtube</p>
+					</div>
+					<div>
+						<h6>Reseñas de calidad</h6>
+						<p>Regístrate y sé parte de esta comunidad</p>
+					</div>
+				</aside>
+			</div>
+			<footer>
+				<p>Creada por Angel Esqueda - 2017</p>
+					<nav>
+					</nav>
+
+			</footer>
+		</div>
+	</body>
+</html>
