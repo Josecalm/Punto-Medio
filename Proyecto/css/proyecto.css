@@ -57,3 +57,20 @@ ol li a{
   display: flex;
   justify-content: center;
 }
+
+
+.btn{
+    text-decoration: none;
+    padding: 8px;
+    font-weight: 600;
+    font-size: 12px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+}
+.btn:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+}
+
