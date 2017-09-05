@@ -1,0 +1,29 @@
+* {
+  font-family: "Lato";
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding: 10px;
+  list-style-type: none;
+}
+
+ol {
+  list-style-type: none;
+}
+
+ul li {
+  margin: 10px;
+}
+
+ul li a {
+  color: #4690AB;
+}
+
+.mainBar {
+  display: flex;
+  justify-content: space-between;
+}
