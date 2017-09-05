@@ -4,6 +4,8 @@
 
 a {
   text-decoration: none;
+  font-style: italic;
+  color: #6A7C84;
 }
 
 ul {
@@ -16,14 +18,42 @@ ol {
 }
 
 ul li {
-  margin: 10px;
+  margin: 20px 5px;
 }
 
 ul li a {
   color: #4690AB;
+  font-style: normal;
+}
+
+ol li {
+  margin: 10px;
+}
+
+ol li a{
+  color: #46AC61;
+  font-style: normal;
 }
 
 .mainBar {
   display: flex;
   justify-content: space-between;
+}
+
+.sectionContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mainMenu {
+  flex-basis: 15%;
+}
+
+.mainSectionItem {
+  flex-basis: 85%;
+}
+
+.footerContainer {
+  display: flex;
+  justify-content: center;
 }
