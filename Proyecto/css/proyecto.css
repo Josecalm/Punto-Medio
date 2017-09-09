@@ -2,6 +2,21 @@
   font-family: "Lato";
 }
 
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  background-color: #23455F;
+  margin-top: 10px;
+}
+
 a {
   text-decoration: none;
   font-style: italic;
@@ -17,27 +32,33 @@ ol {
   list-style-type: none;
 }
 
-ul li {
-  margin: 20px 5px;
+footer p {
+  margin: 0 auto;
+  color: white;
 }
 
-ul li a {
-  color: #4690AB;
-  font-style: normal;
+nav ul {
+  display: flex;
+}
+
+ul li {
+  margin: 0 10px;
 }
 
 ol li {
   margin: 10px;
 }
 
-ol li a{
-  color: #46AC61;
+li a {
+  color: white;
   font-style: normal;
 }
 
 .mainBar {
   display: flex;
   justify-content: space-between;
+  margin: 0;
+  background-color: #23455F;
 }
 
 .sectionContainer {
@@ -49,15 +70,10 @@ ol li a{
   flex-basis: 15%;
 }
 
-.mainSectionItem {
-  flex-basis: 85%;
-}
-
-.footerContainer {
+.footerInfo {
   display: flex;
   justify-content: center;
 }
-
 
 .btn{
     text-decoration: none;
@@ -74,3 +90,7 @@ ol li a{
     background-color: #ffffff;
 }
 
+#logo {
+  font-family: "Lora";
+  color: white;
+}

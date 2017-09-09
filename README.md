@@ -1,6 +1,6 @@
-# Proyecto Reseñas
+# Punto Medio
 
-El proyecto de Reseñas (nombre aún por definir) es una página web que tiene como objetivo el análisis y crítica de los siguientes medios audiovisuales:
+Punto Medio es una página web que tiene como objetivo el análisis y crítica de los siguientes medios audiovisuales:
 
 * Películas
 * Series de TV
