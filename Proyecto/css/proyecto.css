@@ -1,5 +1,6 @@
 * {
   font-family: "Lato";
+  box-sizing: border-box;
 }
 
 html{
@@ -35,6 +36,14 @@ ol {
 footer p {
   margin: 0 auto;
   color: white;
+}
+
+figure img {
+  display: block;
+  max-width: 600px;
+  max-height: 450px;
+  width: auto;
+  height: auto;
 }
 
 nav ul {
@@ -93,4 +102,48 @@ li a {
 #logo {
   font-family: "Lora";
   color: white;
+}
+
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+main {
+  width: 100%;
+  overflow: hidden;
+}
+
+.slider {
+  position: relative;
+  width: 500%;
+  font-size: 0;
+  animation: 30s slidy infinite;
+}
+
+.slider figure {
+  width: 20%; height: auto;
+  display: inline-block;  position: inherit;
+}
+
+.slider img {
+  width: 100%;
+  height: auto;
+}
+
+.slider figure figcaption {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0,0,0,0.4);
+  color: #fff;
+  width: inherit;
+  font-size: 1.5rem;
+  padding: .6rem;
 }
