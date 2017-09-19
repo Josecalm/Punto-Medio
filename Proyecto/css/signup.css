@@ -2,26 +2,26 @@
   box_sizing: border-box;
 }
 
-body{
+body {
   margin: 0;
   font-family: "Lato";
   background: #204862;
 }
 
-h1{
+h1 {
   color: #fff;
   text-align: center;
 }
 
-.form-register{
-  width: 95%;
+.form__register {
+  width: 98%;
   max-width: 500px;
   margin: auto;
   background: white;
   border-radius: 7px;
 }
 
-.form__titulo{
+.form__titulo {
   background: deepskyblue;
   color: #fff;
   padding: 20px;
@@ -30,30 +30,50 @@ h1{
   font-size: 30px;
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
-  border-bottom-left-radius: 7px;
-  border-bottom-right-radius: 7px;
   border-bottom: 5px solid crimson;
 }
 
-.contenedor-inputs{
-  padding: 10 30px;
+.contenedor-inputs {
+  padding: 10px 30px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-input{
+input {
   margin-bottom: 15px;
   padding: 15px;
   font-size: 16px;
   border-radius: 3px;
-  border: 1px solid gray;
+  border: 1px solid darkgray;
 }
 
-.input-48{
-  width: 48%;
+.input-42 {
+  width: 42%;
 }
 
-.input-100{
+.input-100 {
   width: 100%;
+}
+
+.btn__enviar {
+  background: crimson;
+  color: #fff;
+  margin: auto;
+  cursor: pointer;
+
+}
+
+.btn__reset {
+  background: crimson;
+  color: #fff;
+  margin: auto;
+  cursor: pointer;
+}
+
+.form__link {
+  width: 100%;
+  margin: 5px;
+  font-size: 12px;
+  text-align: center;
 }
