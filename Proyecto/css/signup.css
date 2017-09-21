@@ -5,7 +5,7 @@
 body {
   margin: 0;
   font-family: "Lato";
-  background: #204862;
+  background: #23455F;
 }
 
 h1 {
@@ -68,6 +68,7 @@ input {
   background: crimson;
   color: #fff;
   margin: auto;
+  margin-bottom: 5px;
   cursor: pointer;
 }
 
