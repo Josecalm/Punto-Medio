@@ -73,8 +73,9 @@ li a {
   justify-content: space-between;
   position: fixed;
   width: 100%;
-  height: 11%;
+  height: 70px;
   top: 0px;
+  z-index: +1;
   /*transparencia*/
   background-color: rgba(0, 0, 0, 0.9);
 }
@@ -90,7 +91,7 @@ li a {
   justify-content: initial  ;
   align-items: left;
   background-color: black;
-  padding: 1% 5%;
+  padding: 1% 11%;
 }
 
 .footerInfo {
@@ -124,7 +125,17 @@ main {
   overflow: hidden;
 }
 
-.article{
+.story-content{
+  padding: 40px;
+  background-color: white;
+  width:60%;
+  text-align: left;
+  margin: 2% 20% 2% 10%;
+  border-radius: 15px;
+  /*border:  1px solid gray;*/
+}
+
+.comments{
   padding: 40px;
   background-color: white;
   width:60%;
@@ -155,6 +166,7 @@ main {
 }
 
 .slider {
+  margin: 70px auto;
   position: relative;
   padding: 0 20%;
   width: 500%;
@@ -185,6 +197,10 @@ main {
   padding: .6rem;
 }
 
+.figcaption{
+  color: #424242;
+  font-size: 12px;
+}
 /*body{
   margin:0;
   text-align:center;
@@ -260,6 +276,7 @@ input[type="radio"][id="green"]:checked ~ .blue, input[type="radio"][id="green"]
   opacity:0;
 }
 
+
 .tile {
   width:23%;
   height:100px;
@@ -283,16 +300,20 @@ input[type="radio"][id="green"]:checked ~ .blue, input[type="radio"][id="green"]
   background:#ff4466;
 }
 
-.article-title{
+.story-title{
   color: black;
 }
 
+.story-header{
+  margin-bottom: 40px;
+  border-bottom: 1px solid #e2e2e2;
+}
 
 #hero-image {
     height: 580px;
     padding-top: 1px;
     background-color: black;
-    background: #e8eced url('https://assets.grilld.com.au/images/News-Article-Imagery/2017/Baby-Driver-news-header.jpg?mtime=20170621161247') no-repeat center;
+    background: url('https://assets.grilld.com.au/images/News-Article-Imagery/2017/Baby-Driver-news-header.jpg?mtime=20170621161247') center;
 }
 #hero-image h3 {
     margin: 180px 0 40px 0;
