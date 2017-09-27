@@ -92,16 +92,6 @@ main {
   overflow: hidden;
 }
 
-/*@keyframes slidy {
-0% { left: 0%; }
-30% { left: 0%; }
-35% { left: -105%; }
-60% { left: -105%; }
-65% { left: -210%; }
-95% { left: -210%; }
-100% { left: -315%; }
-}*/
-
 @keyframes slidy {
 0% { left: 0%; }
 30% { left: 0%; }
