@@ -8,6 +8,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet" type="text/css">
 	</head>
 	<body>
+		<div class="wrap">
 			<header class="mainBar">
 				<h1 id="logo">Punto · Medio</h1>
 				<nav class="mainMenu">
@@ -19,20 +20,57 @@
 				</nav>
 				<h2>Iniciar sesión</h2>
 			</header>
-			<div class="sectionContainer">
-				<main class="sectionItem mainSectionItem">
-					<article >
-						<header>
-							<h1>Hannibal</h1>
-							<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv2ZilWaQ76DtkftInk-BOd3mZFp8FLggW8BN8QfT3pfko61Cn" alt="Hannibal Serie" style="width:304px;height:228px;">
-							<p>La serie de Hannibal es y ha sido una de las mejores que se han emitido recientemente en los últimos años de la pantalla chica.</p>
-						</header>
-						<section>
-							<a class="btn" href="article.html">Leer la reseña completa.</a>
-						</section>
-					</article>
-				</main>
+			<main>
+				<figure class="slider">
+					<figure>
+						<img src="https://news.newonnetflix.info/wp-content/uploads/2017/03/master-of-none.jpg">
+						<figcaption><a href="#" class="story">Master of None: Aziz Ansari regresa a Netflix con su 2da. temporada.</a></figcaption>
+					</figure>
+					<figure>
+						<img src="https://in.bookmyshow.com/entertainment/wp-content/uploads/2017/06/Baby-Driver-Poster.jpg">
+						<figcaption><a href="#" class="story">Baby Driver: Edgar Wright se enfoca más en la acción en su nueva película.</a></figcaption>
+					</figure>
+					<figure>
+						<img src="http://www.rockalternativo.cl/home/wp-content/uploads/2017/08/qo.jpg" alt>
+						<figcaption><a href="#" class="story">Villains: Josh Homme se reúne con Mark Ronson en el nuevo álbum de QOTSA.</a></figcaption>
+					</figure>
+					<figure>
+						<img src="https://news.newonnetflix.info/wp-content/uploads/2017/03/master-of-none.jpg">
+						<figcaption><a href="#">Master of None: Aziz Ansari regresa a Netflix con su 2da. temporada.</a></figcaption>
+					</figure>
+				</figure>
+			</main>
+			<div class="container"> 
+				<h1>Esta semana</h1>
+				<input type="radio" id="reset" name="color"/>
+				<label for="reset">Inicio</label>
+				<input type="radio" id="blue" name="color" />
+				<label for="blue">Películas</label>
+				<input type="radio" id="red" name="color"/>
+				<label for="red">Series</label>
+				<input type="radio" id="green" name="color"/>
+				<label for="green">Música</label>
+				
+
+				<div class="tile blue">1</div>
+				<div class="tile red">2</div>
+				<div class="tile blue">3</div>
+				<div class="tile green">4</div>
+				<div class="tile blue">5</div>
+
+				<div class="tile blue">14</div>
+				<div class="tile green">15</div>
+				<div class="tile red">16</div>
+				<div class="tile blue">9</div>
+				<div class="tile green">10</div>
+				<div class="tile red">11</div>
+				<div class="tile green">12</div>
+				<div class="tile blue">13</div>
+				<div class="tile blue">14</div>
+				<div class="tile green">15</div>
+				<div class="tile red">16</div>
 			</div>
+
 			<footer>
 				<div class="footerInfo">
 					<ol>
@@ -49,6 +87,8 @@
 					</ol>
 				</div>
 				<p>&copy; 2017 Punto Medio. Todos los derechos reservados.</p>
-			</footer>
+			</footer>	
+		</div>
+			
 	</body>
 </html>
