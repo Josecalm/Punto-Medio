@@ -316,4 +316,3 @@ input[type="radio"][id="green"]:checked ~ .blue, input[type="radio"][id="green"]
 #myBtn:hover {
   background-color: #555;
 }
-
