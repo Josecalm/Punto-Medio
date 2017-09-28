@@ -34,7 +34,7 @@ a {
 }
 
 ul {
-  padding: 10px;
+  padding: 10px auto;
   list-style-type: none;
 }
 
@@ -98,17 +98,6 @@ li a {
 .footerInfo {
   display: flex;
   justify-content: center;
-}
-
-.btn{
-    text-decoration: none;
-    padding: 8px;
-    font-weight: 600;
-    font-size: 12px;
-    color: #ffffff;
-    background-color: #1883ba;
-    border-radius: 6px;
-    border: 2px solid #0016b0;
 }
 
 .story:hover{
@@ -331,6 +320,7 @@ input[type="radio"][id="green"]:checked ~ .blue, input[type="radio"][id="green"]
 
 /*INCIA: Estilo para los comentarios*/
 .comments{
+  padding: 15px 10px 50px 10px;
   border: 2px solid #EEEEEE;
   border-radius: 15px;
   background-color: #FAFAFA;
@@ -339,8 +329,9 @@ input[type="radio"][id="green"]:checked ~ .blue, input[type="radio"][id="green"]
 .user-comment{
   background-color: #EEEEEE;
   padding: 10px;
+  width: 100%;
   border-radius: 15px;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .children{
@@ -355,6 +346,38 @@ input[type="radio"][id="green"]:checked ~ .blue, input[type="radio"][id="green"]
   width: 100%;
   border-radius: 10px;
   border: 2px solid #EEEEEE;
+}
+
+.btn{
+    text-decoration: none;
+    padding: 8px;
+    font-weight: 600;
+    font-size: 12px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 10px;
+    border: 0px solid #EEEEEE;
+    background-color: gray;
+}
+
+
+#btn2{
+    text-decoration: none;
+    padding: 8px;
+    font-weight: 600;
+    font-size: 12px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 10px;
+    border: 0px solid #EEEEEE;
+    background-color: green;
+}
+
+.btn:hover{
+  background-color: #555;
+}
+.btn2:hover{
+  background-color: #555;
 }
 
 /*TERMINA: Estilo para los comentarios*/
