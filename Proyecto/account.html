@@ -20,12 +20,15 @@
         <h2>Nombre del usuario</h2>
     </header>
     <div id="main-column">
-      <h3>Administración de cuenta</h3>
-      <h4>Foto de perfil</h4>
-      <img id="avatarPic" src="img/avatar_default.jpg" alt="Avatar">
-      <input type="file" name="avatar" id="avatar" class="inputfile">
-      <label id="avatarLabel" for="avatar">Elige una foto</label>
       <form class="user-data">
+      <h3 class="accountAdm">Administración de cuenta</h3>
+      <div class="avatarPic">
+        <h4>Foto de perfil</h4>
+        <img id="avatarPic" src="img/avatar_default.jpg" alt="Avatar">
+        <input type="file" name="avatar" id="avatar" class="inputfile">
+        <label id="avatarLabel" for="avatar">Elige una foto</label>
+      </div>
+      <div class="input__container">
         <label for="name">Nombre: </label>
         <input type="text" name="name" class="input-size">
         <label for="last">Apellido: </label>
@@ -41,6 +44,7 @@
         <input id="genderChoice3" type="radio" name="gender" value="other">
         <label>Fecha de nacimiento</label>
         <input type="date" name="">
+      </div>
       </form>
     </div>
     <footer>

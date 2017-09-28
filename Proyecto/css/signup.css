@@ -4,11 +4,10 @@
 
 body {
   margin: 0;
-  background: #23455F;
+  background: white;
 }
 
 h1 {
-  /*color: #fff;*/
   text-align: center;
 }
 
@@ -19,21 +18,26 @@ h2 {
 .form__register {
   width: 98%;
   max-width: 500px;
-  margin: auto;
+  margin-left: 440px;
+  margin-top: 80px;
   background: white;
   border-radius: 7px;
+  border-style: solid;
 }
 
 .form__titulo {
-  margin-top: 100px;
-  background: deepskyblue;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background: black;
   color: #fff;
   padding: 20px;
   text-align: center;
   font-weight: 100;
   font-size: 30px;
+  border-style: solid;
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
+  border-top: 5px solid black;
   border-bottom: 5px solid crimson;
 }
 
@@ -61,15 +65,14 @@ input {
 }
 
 .btn__enviar {
-  background: crimson;
+  background: red;
   color: #fff;
   margin: auto;
   cursor: pointer;
-
 }
 
 .btn__reset {
-  background: crimson;
+  background: red;
   color: #fff;
   margin: auto;
   margin-bottom: 5px;
