@@ -20,32 +20,36 @@
         <h2>Nombre del usuario</h2>
     </header>
     <div id="main-column">
-      <form class="user-data">
       <h3 class="accountAdm">Administración de cuenta</h3>
+      <form class="user-data">
+      <div class="form__div">
+        <div class="input__container">
+          <label for="name">Nombre: </label>
+          <input type="text" name="name" class="input-size">
+          <label for="last">Apellido: </label>
+          <input type="text" name="last-name">
+          <label>E-Mail:</label>
+          <p>e-mail-ejemplo@gmail.com</p>
+          <label for=<"gender">Sexo: </label>
+          <label for="genderChoice1">Masculino</label>
+          <input id="genderChoice1" type="radio" name="gender" value="male">
+          <label for="genderChoice2">Femenino</label>
+          <input id="genderChoice2" type="radio" name="gender" value="female">
+          <label for="genderChoice3">Indefinido</label>
+          <input id="genderChoice3" type="radio" name="gender" value="other">
+          <label>Fecha de nacimiento</label>
+          <input type="date">
+        </div>
+      </div>
       <div class="avatarPic">
         <h4>Foto de perfil</h4>
         <img id="avatarPic" src="img/avatar_default.jpg" alt="Avatar">
         <input type="file" name="avatar" id="avatar" class="inputfile">
         <label id="avatarLabel" for="avatar">Elige una foto</label>
       </div>
-      <div class="input__container">
-        <label for="name">Nombre: </label>
-        <input type="text" name="name" class="input-size">
-        <label for="last">Apellido: </label>
-        <input type="text" name="last-name">
-        <label>E-Mail:</label>
-        <p>e-mail-ejemplo@gmail.com</p>
-        <label for=<"gender">Sexo: </label>
-        <label for="genderChoice1">Masculino</label>
-        <input id="genderChoice1" type="radio" name="gender" value="male">
-        <label for="genderChoice2">Femenino</label>
-        <input id="genderChoice2" type="radio" name="gender" value="female">
-        <label for="genderChoice3">Indefinido</label>
-        <input id="genderChoice3" type="radio" name="gender" value="other">
-        <label>Fecha de nacimiento</label>
-        <input type="date" name="">
-      </div>
       </form>
+      <input class="btn__save" type="submit" value="Guardar">
+      <input class="btn__cancel" type="reset" name="" value="Cancelar">
     </div>
     <footer>
         <div class="footerInfo">
