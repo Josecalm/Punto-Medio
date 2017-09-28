@@ -57,6 +57,7 @@ nav ul {
 
 ul li {
   margin: 0 10px;
+  list-style-type: none;
 }
 
 ol li {
@@ -143,6 +144,12 @@ main {
   margin: 2% 20% 2% 10%;
   border-radius: 15px;
   /*border:  1px solid gray;*/
+}
+
+.user-comment{
+  border: 1px solid #EEEEEE;
+  border-radius: 15px;
+  background-color: #FAFAFA;
 }
 
 /*@keyframes slidy {
@@ -337,3 +344,11 @@ input[type="radio"][id="green"]:checked ~ .blue, input[type="radio"][id="green"]
 #myBtn:hover {
   background-color: #555;
 }
+
+/*Estilo para los comentarios*/
+
+.test{
+  color: black;
+}
+
+
