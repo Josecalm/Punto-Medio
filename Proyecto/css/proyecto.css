@@ -1,6 +1,5 @@
 * {
   font-family: "Lato";
-  box-sizing: border-box;
 }
 
 html{
@@ -14,15 +13,6 @@ body {
   display: inline-block;
 }
 
-.wrap {
-    height: auto;
-    margin: 0 auto -80px; /* footer height + space */
-    min-height: 100%;
-    padding: 0 0 80px; /* footer height + space */
-    box-sizing: border-box;
-    overflow: auto;
-}
-
 footer {
   background-color: black;
   margin-top: 20px;
@@ -30,7 +20,8 @@ footer {
 
 a {
   text-decoration: none;
-  color: #FFF;
+  font-style: italic;
+  color: #6A7C84;
 }
 
 ul {
@@ -95,10 +86,34 @@ li a {
   padding: 1% 11%;
 }
 
+.sectionContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mainMenu {
+  flex-basis: 15%;
+}
+
 .footerInfo {
   display: flex;
   justify-content: center;
 }
+
+
+.btn{
+    text-decoration: none;
+    padding: 8px;
+    font-weight: 600;
+    font-size: 12px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+}
+.btn:hover{
+    color: #1883ba;
+    background-color: #ffffff;
 
 .story:hover{
     text-decoration: underline;
@@ -225,37 +240,6 @@ label {
   margin-bottom:30px;
   cursor:pointer;
 }
-input[type="radio"][id="blue"]:checked + label {
-  background:#6666ff;
-}
-input[type="radio"][id="blue"]:checked ~ .red, input[type="radio"][id="blue"]:checked ~ .green {
-  width:0;
-  height:0;
-  padding:0;
-  margin:0;
-  opacity:0;
-}
-input[type="radio"][id="red"]:checked + label {
-  background:#ff4466;
-}
-input[type="radio"][id="red"]:checked ~ .blue, input[type="radio"][id="red"]:checked ~ .green {
-  width:0;
-  height:0;
-  padding:0;
-  margin:0;
-  opacity:0;
-}
-input[type="radio"][id="green"]:checked + label {
-  background:#66dd99;
-}
-input[type="radio"][id="green"]:checked ~ .blue, input[type="radio"][id="green"]:checked ~ .red {
-  width:0;
-  height:0;
-  padding:0;
-  margin:0;
-  opacity:0;
-}
-
 
 .tile {
   width:23%;
@@ -381,6 +365,3 @@ input[type="radio"][id="green"]:checked ~ .blue, input[type="radio"][id="green"]
 }
 
 /*TERMINA: Estilo para los comentarios*/
-
-
-
