@@ -4,11 +4,23 @@
     <meta charset="utf-8">
     <title>Registro de usuarios</title>
     <link rel="stylesheet" href="css/signup.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet" type="text/css">
   </head>
 <body>
-  <h1></h1>
+  <header class="mainBar">
+        <h1 id="logo">Punto · Medio</h1>
+        <nav class="mainMenu">
+          <ul>
+            <li><a href="#">Películas</a></li>
+            <li><a href="#">Series</a></li>
+            <li><a href="#">Música</a></li>
+          </ul>
+        </nav>
+        <h2>Iniciar sesión</h2>
+  </header>
   <form class="form__register">
-    <h2 class="form__titulo">Crear una nueva cuenta</h2>
+    <h4 class="form__titulo">Crear una nueva cuenta</h4>
     <div class="contenedor-inputs">
       <input class="input-42" type="text" name="nombre" placeholder="&#128100; Nombre" required>
       <input class="input-42" type="text" name="apellidos" placeholder="&#128100; Apellidos" required>
@@ -18,8 +30,25 @@
       <input class="input-42" type="password" name="confirmar-clave" placeholder="&#128273; Repetir contraseña" required>
       <input class="btn__enviar" type="submit" value="Registrar">
       <input class="btn__reset" type="reset" name="" value="Limpiar">
-      <p class="form__link">¿Ya tienes una cuenta? <a href="login.html">Ingresa aquí</a></p>
+      <p class="form__link">¿Ya tienes una cuenta? <a id="accountAlready" href="login.html">Ingresa aquí</a></p>
     </div>
   </form>
+  <footer>
+        <div class="footerInfo">
+          <ol>
+            <h4>Síguenos</h4>
+            <li><a href="https://twitter.com">Twitter</a></li>
+            <li><a href="https://facebook.com">Facebook</a></li>
+            <li><a href="https://youtube.com">Youtube</a></li>
+          </ol>
+          <ol>
+            <h4>Información</h4>
+            <li><a href="#">Quiénes somos</a></li>
+            <li><a href="#">Editores</a></li>
+            <li><a href="#">Contáctanos</a></li>
+          </ol>
+        </div>
+        <p>&copy; 2017 Punto Medio. Todos los derechos reservados.</p>
+  </footer> 
 </body>
 </html>
