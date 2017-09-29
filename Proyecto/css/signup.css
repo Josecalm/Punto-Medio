@@ -156,3 +156,8 @@ li a {
   color: white;
   font-style: normal;
 }
+
+.login__register {
+  margin-top: 5px;
+  color: white;
+}
