@@ -6,7 +6,6 @@ body {
 
 footer {
   background-color: black;
-  margin-top: 30px;
 }
 
 footer p {
@@ -107,8 +106,7 @@ li a {
   justify-content: center;
 }
 
-/* SIGNUP: Inicia---------------------------------------*/
-.form__register {
+.form__register {/* SIGNUP: Inicia-----------------------------------------------------------------------*/
   width: 98%;
   max-width: 500px;
   margin-left: 440px;
@@ -169,7 +167,7 @@ input {
 
 .form__link {
   width: 100%;
-  margin: 5px;
+  margin: 19px;
   font-size: 12px;
 }
 
@@ -258,14 +256,13 @@ input {
 
 .btn__form:hover{
   background-color: #B71C1C;
-}
-/* SIGNUP: Termina-------------------------------------*/
+}/* SIGNUP: Termina**********************************************************************************/
 
 
-/* ACCOUNT: Inicia-------------------------------------*/
-#main-column {
+
+#main-column {/* ACCOUNT: Inicia-----------------------------------------------------------------------*/
   max-width: 500px;
-  margin: 80px 0 0 400px;
+  margin: 7% 20% 5% 30%;
   background: white;
   border-style: solid;
   border-top-left-radius: 7px;
@@ -347,12 +344,12 @@ input {
   font-size: 15px;
   border-radius: 5px;
   border: 1px solid darkgray;
-} /* ACCOUNT: Termina---------------------------------------*/
+} /* ACCOUNT: Termina**********************************************************************************/
 
 
 
-.content {/* ARTICLE: Inicia---------------------------------------*/
-  margin: 70px auto;
+.content {/* ARTICLE: Inicia-----------------------------------------------------------------------*/
+  margin: 70px 0px 0px 0px;
   background-color: #F5F5F5;
   border-color: black;
 }
@@ -374,7 +371,7 @@ input {
   background-color: white;
   width:60%;
   text-align: left;
-  margin: 2% 20% 2% 10%;
+  margin: 2% 20% 0% 10%;
   border-radius: 15px;
   /*border:  1px solid gray;*/
 }
@@ -461,7 +458,7 @@ input {
 
 .story-header{
   margin-bottom: 40px;
-  border-bottom: 1px solid #e2e2e2;
+  border-bottom: 2px solid #e2e2e2;
 }
 
 #hero-image {
@@ -474,7 +471,7 @@ input {
     margin: 180px 0 40px 0;
 }
 
-#myBtn {
+#to-top {
   display: none;
   position: fixed;
   bottom: 20px;
@@ -523,26 +520,21 @@ input {
   border: 2px solid #EEEEEE;
 }
 
-.btn{
-    text-decoration: none;
+.btn-reply{
     padding: 8px;
     font-weight: 600;
     font-size: 12px;
     color: #ffffff;
-    background-color: #1883ba;
     border-radius: 10px;
     border: 0px solid #EEEEEE;
     background-color: gray;
 }
 
-
-#btn2{
-    text-decoration: none;
+#btn-submit{
     padding: 8px;
     font-weight: 600;
     font-size: 12px;
     color: #ffffff;
-    background-color: #1883ba;
     border-radius: 10px;
     border: 0px solid #EEEEEE;
     background-color: green;
@@ -551,7 +543,7 @@ input {
 .btn:hover{
   background-color: #555;
 }
-#btn2:hover{
+#btn-submit:hover{
   background-color: #555;
 }
 
@@ -560,4 +552,4 @@ input {
 .login__register {
   margin-top: 5px;
   color: white;
-}/* ARTICLE: Termina---------------------------------------*/
+}/* ARTICLE: Termina**********************************************************************************/
