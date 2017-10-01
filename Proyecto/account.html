@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Administración de cuenta</title>
-    <link rel="stylesheet" type="text/css" href="css/account.css">
+    <link rel="stylesheet" type="text/css" href="css/signup.css">
     <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet" type="text/css">
   </head>
@@ -22,34 +22,37 @@
     <div id="main-column">
       <h3 class="accountAdm">Administración de cuenta</h3>
       <form class="user-data">
-      <div class="form__div">
-        <div class="input__container">
-          <label for="name">Nombre: </label>
-          <input type="text" name="name" class="input-size">
-          <label for="last">Apellido: </label>
-          <input type="text" name="last-name">
-          <label>E-Mail:</label>
-          <p>e-mail-ejemplo@gmail.com</p>
-          <label for=<"gender">Sexo: </label>
-          <label for="genderChoice1">Masculino</label>
-          <input id="genderChoice1" type="radio" name="gender" value="male">
-          <label for="genderChoice2">Femenino</label>
-          <input id="genderChoice2" type="radio" name="gender" value="female">
-          <label for="genderChoice3">Indefinido</label>
-          <input id="genderChoice3" type="radio" name="gender" value="other">
-          <label>Fecha de nacimiento</label>
-          <input type="date">
+        <div class="form__div">
+          <div class="input__container">
+            <label for="name">Nombre: </label>
+            <input type="text" name="name" class="input__account">
+            <label for="last">Apellido: </label>
+            <input  class="input__account" type="text" name="last-name">
+            <label>E-Mail:</label>
+            <p>e-mail-ejemplo@gmail.com</p>
+            <label for=<"gender">Sexo: </label>
+            <label for="genderChoice1">Masculino</label>
+            <input id="genderChoice1" type="radio" name="gender" value="male">
+            <label for="genderChoice2">Femenino</label>
+            <input id="genderChoice2" type="radio" name="gender" value="female">
+            <label for="genderChoice3">Indefinido</label>
+            <input id="genderChoice3" type="radio" name="gender" value="other">
+            <label>Fecha de nacimiento</label>
+            <input class="input__account" type="date">
+          </div>
         </div>
-      </div>
-      <div class="avatarPic">
-        <h4>Foto de perfil</h4>
-        <img id="avatarPic" src="img/avatar_default.jpg" alt="Avatar">
-        <input type="file" name="avatar" id="avatar" class="inputfile">
-        <label id="avatarLabel" for="avatar">Elige una foto</label>
-      </div>
+        <div class="avatarPic">
+          <h5>Foto de perfil</h5>
+          <img id="avatarPic" src="img/avatar_default.jpg" alt="Avatar">
+          <input type="file" name="avatar" id="avatar" class="inputfile">
+          <label id="avatarLabel" for="avatar">Elige una foto</label>
+        </div>
       </form>
-      <input class="btn__save" type="submit" value="Guardar">
-      <input class="btn__cancel" type="reset" name="" value="Cancelar">
+      <div class="contenedor-inputs">
+        <input class="btn__form" type="submit" value="Guardar" style="justify-content: space-between">
+        <input class="btn__form" type="reset" name="" value="Cancelar" style="justify-content: space-between">
+      </div>
+      
     </div>
     <footer>
         <div class="footerInfo">
