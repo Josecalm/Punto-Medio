@@ -519,6 +519,15 @@ input {
   background:#ff4466;
 }
 
+.blue-fb {
+  background:#4267b2;
+}
+
+.blue-fb:hover {
+  background:#35528e;
+}
+
+
 @keyframes slidy {
   0% { left: 0%; }
   30% { left: 0%; }

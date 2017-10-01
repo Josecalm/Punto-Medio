@@ -8,6 +8,10 @@ Punto Medio es una página web que tiene como objetivo el análisis y crítica d
 
 A través de reseñas escritas por editores selectos, en las cuales los usuarios podrán interactuar a través de comentarios.
 
+## Sitio
+
+https://goo.gl/9GhNPs
+
 ## Tecnologías
 
 El proyecto utilizará tecnologías y lenguajes tales como:
