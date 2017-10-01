@@ -84,6 +84,10 @@ li a {
   font-style: normal;
 }
 
+aside {
+  margin-top: 80px;
+}
+
 .mainBar {
   display: flex;
   justify-content: space-between;
@@ -508,7 +512,7 @@ input {
 }
 
 .blue {
-  background:#6666ff;
+  background:#1dafac;
 }
 
 .red {
