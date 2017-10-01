@@ -167,7 +167,6 @@ input {
 
 .form__link {
   width: 100%;
-  margin: 19px;
   font-size: 12px;
 }
 
@@ -257,7 +256,7 @@ input {
 
 #main-column {/* ACCOUNT: Inicia-----------------------------------------------------------------------*/
   max-width: 500px;
-  margin: 7% 20% 5% 30%;
+  margin: 7% 20% 30px 30%;
   background: white;
   border-style: solid;
   border-top-left-radius: 7px;
@@ -414,7 +413,7 @@ input {
   border-radius: 10px;
 }
 
-#myBtn:hover {
+#to-top:hover {
   background-color: #555;
 }
 
@@ -456,6 +455,8 @@ input {
     border-radius: 10px;
     border: 0px solid #EEEEEE;
     background-color: gray;
+    cursor: pointer;
+
 }
 
 #btn-submit{
@@ -463,12 +464,13 @@ input {
     font-weight: 600;
     font-size: 12px;
     color: #ffffff;
+    cursor: pointer;
     border-radius: 10px;
     border: 0px solid #EEEEEE;
     background-color: green;
 }
 
-.btn:hover{
+.btn-reply:hover{
   background-color: #555;
 }
 #btn-submit:hover{
@@ -554,6 +556,11 @@ input {
   width: 50%;
   font-size: 2rem;
   padding: .6rem;
+}
+
+main {
+  width: 100%;
+  overflow: hidden;
 }
 
 .iconDetails {
