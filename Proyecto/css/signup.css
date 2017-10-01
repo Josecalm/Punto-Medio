@@ -13,7 +13,24 @@ h2 {
   color: white;
 }
 
+/* Títulos medianos */
+h3 {
+  font-weight: 300;
+  color: black;
+  font-size: 35px;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
 
+h4 {
+  color: white;
+}
+
+h5 {
+  font-size: 20px;
+  margin: 10px 10px 0 175px;
+}
 
 .form__register {
   width: 98%;
@@ -41,7 +58,7 @@ h2 {
   border-bottom: 5px solid crimson;
 }
 
-.contenedor-inputs {
+.container__inputs {
   padding: 10px 30px;
   display: flex;
   flex-wrap: wrap;
@@ -225,4 +242,99 @@ li a {
   cursor: pointer;
   border-radius: 5px;
   border: 0px;
+}
+
+.btn__login:hover{
+  background: #176c6b;
+}
+
+.btn__form:hover{
+  background-color: #B71C1C;
+}
+
+/* SECCION PARA ACCOUNT */
+#main-column {
+  max-width: 500px;
+  margin: 80px 0 0 400px;
+  background: white;
+  border-style: solid;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  border-top: 5px solid black;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.user-data {
+  width: 100%;
+  padding: 0px;
+  font-size: 15px;
+  margin-top: 0px;
+  display: flex;
+}
+
+#avatarPic {
+  margin-left: 190px;
+}
+
+.inputfile {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.inputfile + label {
+    font-size: 1.25em;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+    background-color: red;
+}
+
+#avatarLabel {
+  margin-left: 175px;
+}
+
+#main-column label {
+  display: flex;
+}
+
+.accountAdm {
+  margin-top: 0px;
+  background: black;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-weight: 100;
+  font-size: 30px;
+  border-style: solid;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  border-top: 5px solid black;
+  border-bottom: 5px solid crimson;
+}
+
+.input__container {
+  padding: 20px;
+}
+
+.avatarPic {
+  margin-left: -100px;
+}
+
+.input__account{
+  margin-bottom: 5px;
+  padding: 3px;
+  font-size: 15px;
+  border-radius: 5px;
+  border: 1px solid darkgray;
 }
