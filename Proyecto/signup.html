@@ -3,36 +3,73 @@
   <head>
     <meta charset="utf-8">
     <title>Registro de usuarios</title>
-    <link rel="stylesheet" href="css/signup.css">
+    <link rel="stylesheet" href="css/style.css">
     <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet" type="text/css">
   </head>
 <body>
   <header class="mainBar">
-        <h1 id="logo">Punto · Medio</h1>
+        <h1 id="logo"><a href="index.html">Punto · Medio</a></h1>
         <nav class="mainMenu">
           <ul>
-            <li><a href="#">Películas</a></li>
-            <li><a href="#">Series</a></li>
-            <li><a href="#">Música</a></li>
+            <li><a href="section.html">Películas</a></li>
+            <li><a href="section.html">Series</a></li>
+            <li><a href="section.html">Música</a></li>
           </ul>
         </nav>
-        <h2>Iniciar sesión</h2>
+        <ul class="login__register">
+          <li><a href="#" onclick="document.getElementById('id01').style.display='block'">Iniciar sesión</a></li>
+          <li><a href="signup.html">Registrarse</a></li>
+      </ul>
   </header>
   <form class="form__register">
-    <h4 class="form__titulo">Crear una nueva cuenta</h4>
-    <div class="contenedor-inputs">
+    <h3 class="form__titulo">Crear una nueva cuenta</h3>
+    <div class="container__inputs">
       <input class="input-42" type="text" name="nombre" placeholder="&#128100; Nombre" required>
       <input class="input-42" type="text" name="apellidos" placeholder="&#128100; Apellidos" required>
       <input class="input-100" type="text" name="email" placeholder="&#9993; Correo electrónico" required>
       <input class="input-100" type="text" name="usuario" placeholder="&#128100; Nombre de usuario" required>
       <input class="input-42" type="password" name="clave" placeholder="&#128273; Contraseña" required>
       <input class="input-42" type="password" name="confirmar-clave" placeholder="&#128273; Repetir contraseña" required>
-      <input class="btn__enviar" type="submit" value="Registrar">
-      <input class="btn__reset" type="reset" name="" value="Limpiar">
-      <p class="form__link">¿Ya tienes una cuenta? <a id="accountAlready" href="login.html">Ingresa aquí</a></p>
+      <input class="btn__form" type="submit" value="Registrar">
+      <input class="btn__form" type="reset" name="" value="Limpiar">
     </div>
   </form>
+  <div class="row__aregister">
+    <p class="form__link" >¿Ya tienes una cuenta?
+      <button class="btn__login" onclick="document.getElementById('id01').style.display='block'">Inicia sesión aquí</button>    
+    </p>
+    <!-- Modal -->
+    <div class="modal__btn">          
+      <div id="id01" class="modal">
+        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+        
+        <!-- Contenido del modal -->
+        <form class="modal-content animate">
+          <div class="imgcontainer">
+            <img src="img/avatar_default.jpg" alt="Avatar" class="avatar">
+          </div>
+
+          <div class="row-container">
+            <label><b>Nombre de usuario</b></label>
+            <input type="text" placeholder="Ingresa nombre de usuario" name="uname" required>
+
+            <label><b>Contraseña</b></label>
+            <input type="password" placeholder="Ingresa tu contraseña" name="psw" required>
+
+            <button class="btn__login" type="submit">Iniciar sesión</button>
+            <input type="checkbox" checked="checked"> Recuérdame
+          </div>
+
+          <div class="row-container" style="background-color:lightblue">
+            <a href="#" style="color: black"><strong>¿Olvidaste tu contraseña?</strong></a>
+            <button type="button"  onclick="document.getElementById('id01').style.display='none'" class="btn__form">Cancelar</button>
+          </div>
+        </form>
+      </div>
+    </div> <!-- btn modal-->
+  </div> <!-- row already register -->
+  
   <footer>
         <div class="footerInfo">
           <ol>
