@@ -271,6 +271,7 @@
       </div>
       <p>&copy; 2017 Punto Medio. Todos los derechos reservados.</p>
     </footer> 
+    <button onclick="topFunction()" id="to-top" title="Ir hasta arriba">Arriba</button>
   </body>
   <div class="modal__btn">          
     <div id="id01" class="modal">
@@ -303,3 +304,21 @@
 </html>
 
 
+<script>
+// Cuando el usuario baja 20px desde arriba, se muestra el botón
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
+        document.getElementById("to-top").style.display = "block";
+    } else {
+        document.getElementById("to-top").style.display = "none";
+    }
+}
+
+// Cuando el usuario da click, se va hasta arriba del documento
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
