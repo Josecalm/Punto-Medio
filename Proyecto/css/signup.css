@@ -1,10 +1,8 @@
-* {
-  font-family: "Lato";
-}
 
 body {
   margin: 0;
   background: white;
+  font-family: "Lato";
 }
 
 h1 {
@@ -14,6 +12,8 @@ h1 {
 h2 {
   color: white;
 }
+
+
 
 .form__register {
   width: 98%;
