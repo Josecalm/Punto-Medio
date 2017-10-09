@@ -140,11 +140,25 @@ aside {
 
 .tile__text{
   font-size: .8em;
-  /*float: left; */
 }
 
 .tile__border{
   border-bottom: 2px solid #414141;
+}
+
+.user__menu {
+  padding: 5px;
+  margin-top: 0px;
+  color: white;
+}
+
+.user__menu li{
+  margin: 0;
+}
+
+.user__avatar{
+  height: 10%;
+  width: 10%;
 }
 
 .form__register {/* SIGNUP: Inicia-----------------------------------------------------------------------*/
@@ -522,7 +536,7 @@ input {
 
 .login__register {
   padding: 5px;
-  margin-top: 0px;
+  margin-top: 10px;
   color: white;
 }/* ARTICLE: Termina**********************************************************************************/
 
