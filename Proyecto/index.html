@@ -4,8 +4,10 @@
     <meta charset="utf-8">
     <title>Punto · Medio</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="js/script.js"></script>
   </head>
   <body>
     <header class="mainBar">
@@ -17,6 +19,10 @@
           <li><a href="section.html">Música</a></li>
         </ul>
       </nav>
+      <form action="search-results.html" method="POST">
+        <input class="search__bar" type="text" name="searchBar" placeholder="Búsqueda">
+        <button class="search__button"><i class="fa fa-search fa-lg"></i></button>
+      </form>
       <ul class="login__register">
         <li><a href="#" onclick="document.getElementById('id01').style.display='block'">Iniciar sesión</a></li>
         <li><a href="signup.html">Registrarse</a></li>
@@ -26,230 +32,149 @@
     <main>
       <figure class="slider">
         <figure>
-          <img src="https://news.newonnetflix.info/wp-content/uploads/2017/03/master-of-none.jpg">
-          <figcaption><a href="#" class="story">Master of None: Aziz Ansari regresa a Netflix con su 2da. temporada.</a></figcaption>
+          <img src="https://news.newonnetflix.info/wp-content/uploads/2017/03/master-of-none.jpg" alt="Imagen Master Of None">
+          <figcaption><a href="article.html" class="story">Master of None: Aziz Ansari regresa a Netflix con su 2da. temporada.</a></figcaption>
         </figure>
         <figure>
-          <img src="https://in.bookmyshow.com/entertainment/wp-content/uploads/2017/06/Baby-Driver-Poster.jpg">
-          <figcaption><a href="#" class="story">Baby Driver: Edgar Wright se enfoca más en la acción en su nueva película.</a></figcaption>
+          <img src="https://in.bookmyshow.com/entertainment/wp-content/uploads/2017/06/Baby-Driver-Poster.jpg" alt="Imagen Baby Driver">
+          <figcaption><a href="article.html" class="story">Baby Driver: Edgar Wright se enfoca más en la acción en su nueva película.</a></figcaption>
         </figure>
         <figure>
-          <img src="http://www.rockalternativo.cl/home/wp-content/uploads/2017/08/qo.jpg" alt>
-          <figcaption><a href="#" class="story">Villains: Josh Homme se reúne con Mark Ronson en el nuevo álbum de QOTSA.</a></figcaption>
+          <img src="http://www.rockalternativo.cl/home/wp-content/uploads/2017/08/qo.jpg" alt="Imagen QOTSA">
+          <figcaption><a href="article.html" class="story">Villains: Josh Homme se reúne con Mark Ronson en el nuevo álbum de QOTSA.</a></figcaption>
         </figure>
         <figure>
-          <img src="https://news.newonnetflix.info/wp-content/uploads/2017/03/master-of-none.jpg">
-          <figcaption><a href="#">Master of None: Aziz Ansari regresa a Netflix con su 2da. temporada.</a></figcaption>
+          <img src="https://news.newonnetflix.info/wp-content/uploads/2017/03/master-of-none.jpg" alt="Imagen Master Of None">
+          <figcaption><a href="article.html">Master of None: Aziz Ansari regresa a Netflix con su 2da. temporada.</a></figcaption>
         </figure>
       </figure>
     </main>
     <aside>
-      <h1>Lo nuevo esta semana</h1>
+      <h2>Lo nuevo esta semana</h2>
       <div class="container"> 
-        <div class="tile blue">
-          <div>
-            <div class="crop">
-              <img src='http://moviemom.maxlazebnik.com/wp-content/uploads/2017/06/baby-driver.jpg' class='iconDetails'>
-            </div>  
-            <div style='margin-left:165px; margin-top: -110px'>
-            <h4><a href="article.html">Baby Driver</a></h4>
-            <div style="font-size:.6em;float:left;">Esta es la información de cada uno de los items</div>
-            </div>
+        <div class="tile tile__border">
+          <div class="crop">
+            <img src='http://moviemom.maxlazebnik.com/wp-content/uploads/2017/06/baby-driver.jpg' alt="Ícono Baby Driver" class='iconDetails'>
+          </div>  
+          <div class="tile__info">
+            <p class="tile__text">Películas</p>
+            <h4><a href="article.html" class="tile__header">Baby Driver: Cuando el soundtrack guía la película</a></h4>
+            <p class="tile__text">Reseña por: Lalo Pérez</p>
           </div>
         </div>
-        <div class="tile red">
-          <div>
-            <div class="crop">
-              <img src='http://moviemom.maxlazebnik.com/wp-content/uploads/2017/06/baby-driver.jpg' class='iconDetails'>
-            </div>  
-            <div style='margin-left:165px; margin-top: -110px'>
-            <h4><a href="article.html">Baby Driver</a></h4>
-            <div style="font-size:.6em;float:left;">Esta es la información de cada uno de los items</div>
-            </div>
+        <div class="tile tile__border">
+          <div class="crop">
+            <img src='https://images.duckduckgo.com/iu/?u=https%3A%2F%2Fburgerandhoochdotcom.files.wordpress.com%2F2017%2F07%2Flarry-david-curb-your-enthusiasm-season-9.jpg%3Fw%3D676%26h%3D1001&f=1' alt="Ícono CYE" class='iconDetails'>
+          </div>  
+          <div class="tile__info">
+            <p class="tile__text">Series de TV</p>
+            <h4><a href="article.html" class="tile__header">Curb Your Enthusiasm: Larry David regresa luego de casi 10 años</a></h4>
+            <p class="tile__text">Reseña por: Ángel Esqueda</p>
           </div>
         </div>
-        <div class="tile blue">
-          <div>
-            <div class="crop">
-              <img src='http://moviemom.maxlazebnik.com/wp-content/uploads/2017/06/baby-driver.jpg' class='iconDetails'>
-            </div>  
-            <div style='margin-left:165px; margin-top: -110px'>
-            <h4><a href="article.html">Baby Driver</a></h4>
-            <div style="font-size:.6em;float:left;">Esta es la información de cada uno de los items</div>
-            </div>
+        <div class="tile tile__border">
+          <div class="crop">
+            <img src='https://is5-ssl.mzstatic.com/image/thumb/Music118/v4/3e/46/04/3e460479-f504-2615-32be-30f83df76811/190295758974.jpg/268x0w.jpg' alt="Ícono Salvavidas de Hielo" class='iconDetails'>
+          </div>  
+          <div class="tile__info">
+            <p class="tile__text">Música</p>
+            <h4><a href="article.html" class="tile__header">Salvavidas de Hielo: El nuevo álbum de Jorge Drexler</a></h4>
+            <p class="tile__text">Reseña por: José C. López</p>
           </div>
         </div>
-        <div class="tile blue">
-          <div>
-            <div class="crop">
-              <img src='http://moviemom.maxlazebnik.com/wp-content/uploads/2017/06/baby-driver.jpg' class='iconDetails'>
-            </div>  
-            <div style='margin-left:165px; margin-top: -110px'>
-            <h4><a href="article.html">Baby Driver</a></h4>
-            <div style="font-size:.6em;float:left;">Esta es la información de cada uno de los items</div>
-            </div>
+        <div class="tile tile__border">
+          <div class="crop">
+            <img src='http://moviemom.maxlazebnik.com/wp-content/uploads/2017/06/baby-driver.jpg' alt="Ícono Baby Driver" class='iconDetails'>
+          </div>  
+          <div class="tile__info">
+            <p class="tile__text">Películas</p>
+            <h4><a href="article.html" class="tile__header">Baby Driver: Cuando el soundtrack guía la película</a></h4>
+            <p class="tile__text">Reseña por: Lalo Pérez</p>
           </div>
         </div>
-        <div class="tile red">
-          <div>
-            <div class="crop">
-              <img src='http://moviemom.maxlazebnik.com/wp-content/uploads/2017/06/baby-driver.jpg' class='iconDetails'>
-            </div>  
-            <div style='margin-left:165px; margin-top: -110px'>
-            <h4><a href="article.html">Baby Driver</a></h4>
-            <div style="font-size:.6em;float:left;">Esta es la información de cada uno de los items</div>
-            </div>
+        <div class="tile tile__border">
+          <div class="crop">
+            <img src='https://images.duckduckgo.com/iu/?u=https%3A%2F%2Fburgerandhoochdotcom.files.wordpress.com%2F2017%2F07%2Flarry-david-curb-your-enthusiasm-season-9.jpg%3Fw%3D676%26h%3D1001&f=1' alt="Ícono CYE" class='iconDetails'>
+          </div>  
+          <div class="tile__info">
+            <p class="tile__text">Series de TV</p>
+            <h4><a href="article.html" class="tile__header">Curb Your Enthusiasm: Larry David regresa luego de casi 10 años</a></h4>
+            <p class="tile__text">Reseña por: Ángel Esqueda</p>
           </div>
         </div>
-      </div>
-      <div class="container">
-        <div class="tile blue">
-          <div>
-            <div class="crop">
-              <img src='http://moviemom.maxlazebnik.com/wp-content/uploads/2017/06/baby-driver.jpg' class='iconDetails'>
-            </div>  
-            <div style='margin-left:165px; margin-top: -110px'>
-            <h4><a href="article.html">Baby Driver</a></h4>
-            <div style="font-size:.6em;float:left;">Esta es la información de cada uno de los items</div>
-            </div>
-          </div>
-        </div>
-        <div class="tile blue">
-          <div>
-            <div class="crop">
-              <img src='http://moviemom.maxlazebnik.com/wp-content/uploads/2017/06/baby-driver.jpg' class='iconDetails'>
-            </div>  
-            <div style='margin-left:165px; margin-top: -110px'>
-            <h4><a href="article.html">Baby Driver</a></h4>
-            <div style="font-size:.6em;float:left;">Esta es la información de cada uno de los items</div>
-            </div>
-          </div>
-        </div>
-        <div class="tile red">
-          <div>
-            <div class="crop">
-              <img src='http://moviemom.maxlazebnik.com/wp-content/uploads/2017/06/baby-driver.jpg' class='iconDetails'>
-            </div>  
-            <div style='margin-left:165px; margin-top: -110px'>
-            <h4><a href="article.html">Baby Driver</a></h4>
-            <div style="font-size:.6em;float:left;">Esta es la información de cada uno de los items</div>
-            </div>
-          </div>
-        </div>
-        <div class="tile blue">
-          <div>
-            <div class="crop">
-              <img src='http://moviemom.maxlazebnik.com/wp-content/uploads/2017/06/baby-driver.jpg' class='iconDetails'>
-            </div>  
-            <div style='margin-left:165px; margin-top: -110px'>
-            <h4><a href="article.html">Baby Driver</a></h4>
-            <div style="font-size:.6em;float:left;">Esta es la información de cada uno de los items</div>
-            </div>
+        <div class="tile tile__border">
+          <div class="crop">
+            <img src='https://is5-ssl.mzstatic.com/image/thumb/Music118/v4/3e/46/04/3e460479-f504-2615-32be-30f83df76811/190295758974.jpg/268x0w.jpg' alt="Ícono Salvavidas de Hielo" class='iconDetails'>
+          </div>  
+          <div class="tile__info">
+            <p class="tile__text">Música</p>
+            <h4><a href="article.html" class="tile__header">Salvavidas de Hielo: El nuevo álbum de Jorge Drexler</a></h4>
+            <p class="tile__text">Reseña por: José C. López</p>
           </div>
         </div>
       </div>
     </aside>
-      <h1>Recomendado para ti :)</h1>
+    <aside>
+      <h2>Recomendado para ti</h2>
       <div class="container"> 
-        <div class="tile blue">
-          <div>
-            <div class="crop">
-              <img src='http://moviemom.maxlazebnik.com/wp-content/uploads/2017/06/baby-driver.jpg' class='iconDetails'>
-            </div>  
-            <div style='margin-left:165px; margin-top: -110px'>
-            <h4><a href="article.html">Baby Driver</a></h4>
-            <div style="font-size:.6em;float:left;">Esta es la información de cada uno de los items</div>
-            </div>
+        <div class="tile tile__border">
+          <div class="crop">
+            <img src='https://estaticos.muyinteresante.es/uploads/images/gallery/59cb804b5bafe8d539f9cf2c/tumblr-static-26osk19e9qck84sgcwogsw88w_0.jpg' alt="Ícono Blade Runner" class='iconDetails'>
+          </div>  
+          <div class="tile__info">
+            <p class="tile__text">Películas</p>
+            <h4><a href="article.html" class="tile__header">Blade Runner 2049</a></h4>
+            <p class="tile__text">Por tu interés en: Ciencia Ficción</p>
           </div>
         </div>
-        <div class="tile red">
-          <div>
-            <div class="crop">
-              <img src='http://moviemom.maxlazebnik.com/wp-content/uploads/2017/06/baby-driver.jpg' class='iconDetails'>
-            </div>  
-            <div style='margin-left:165px; margin-top: -110px'>
-            <h4><a href="article.html">Baby Driver</a></h4>
-            <div style="font-size:.6em;float:left;">Esta es la información de cada uno de los items</div>
-            </div>
+        <div class="tile tile__border">
+          <div class="crop">
+            <img src='http://stuffpoint.com/the-office/image/80424-the-office-the-office-poster.jpg' alt="Ícono The Office US" class='iconDetails'>
+          </div>  
+          <div class="tile__info">
+            <p class="tile__text">Series de TV</p>
+            <h4><a href="article.html" class="tile__header">The Office (US)</a></h4>
+            <p class="tile__text">Por tu interés en: Comedia</p>
           </div>
         </div>
-        <div class="tile blue">
-          <div>
-            <div class="crop">
-              <img src='http://moviemom.maxlazebnik.com/wp-content/uploads/2017/06/baby-driver.jpg' class='iconDetails'>
-            </div>  
-            <div style='margin-left:165px; margin-top: -110px'>
-            <h4><a href="article.html">Baby Driver</a></h4>
-            <div style="font-size:.6em;float:left;">Esta es la información de cada uno de los items</div>
-            </div>
+        <div class="tile tile__border">
+          <div class="crop">
+            <img src='https://resources.tidal.com/images/7c298a27/caec/4058/9a7b/5f34cfd2c857/1280x1280.jpg' alt="Ícono 4:44" class='iconDetails'>
+          </div>  
+          <div class="tile__info">
+            <p class="tile__text">Música</p>
+            <h4><a href="article.html" class="tile__header">JAY-Z: 4:44</a></h4>
+            <p class="tile__text">Por tu interés en: Rap</p>
           </div>
         </div>
-        <div class="tile blue">
-          <div>
-            <div class="crop">
-              <img src='http://moviemom.maxlazebnik.com/wp-content/uploads/2017/06/baby-driver.jpg' class='iconDetails'>
-            </div>  
-            <div style='margin-left:165px; margin-top: -110px'>
-            <h4><a href="article.html">Baby Driver</a></h4>
-            <div style="font-size:.6em;float:left;">Esta es la información de cada uno de los items</div>
-            </div>
+        <div class="tile">
+          <div class="crop">
+            <img src='https://estaticos.muyinteresante.es/uploads/images/gallery/59cb804b5bafe8d539f9cf2c/tumblr-static-26osk19e9qck84sgcwogsw88w_0.jpg' alt="Ícono Blade Runner" class='iconDetails'>
+          </div>  
+          <div class="tile__info">
+            <p class="tile__text">Películas</p>
+            <h4><a href="article.html" class="tile__header">Blade Runner 2049</a></h4>
+            <p class="tile__text">Por tu interés en: Ciencia Ficción</p>
           </div>
         </div>
-        <div class="tile red">
-          <div>
-            <div class="crop">
-              <img src='http://moviemom.maxlazebnik.com/wp-content/uploads/2017/06/baby-driver.jpg' class='iconDetails'>
-            </div>  
-            <div style='margin-left:165px; margin-top: -110px'>
-            <h4><a href="article.html">Baby Driver</a></h4>
-            <div style="font-size:.6em;float:left;">Esta es la información de cada uno de los items</div>
-            </div>
+        <div class="tile">
+          <div class="crop">
+            <img src='http://stuffpoint.com/the-office/image/80424-the-office-the-office-poster.jpg' alt="Ícono The Office US" class='iconDetails'>
+          </div>  
+          <div class="tile__info">
+            <p class="tile__text">Series de TV</p>
+            <h4><a href="article.html" class="tile__header">The Office (US)</a></h4>
+            <p class="tile__text">Por tu interés en: Comedia</p>
           </div>
         </div>
-      </div>
-      <div class="container">
-        <div class="tile blue">
-          <div>
-            <div class="crop">
-              <img src='http://moviemom.maxlazebnik.com/wp-content/uploads/2017/06/baby-driver.jpg' class='iconDetails'>
-            </div>  
-            <div style='margin-left:165px; margin-top: -110px'>
-            <h4><a href="article.html">Baby Driver</a></h4>
-            <div style="font-size:.6em;float:left;">Esta es la información de cada uno de los items</div>
-            </div>
-          </div>
-        </div>
-        <div class="tile blue">
-          <div>
-            <div class="crop">
-              <img src='http://moviemom.maxlazebnik.com/wp-content/uploads/2017/06/baby-driver.jpg' class='iconDetails'>
-            </div>  
-            <div style='margin-left:165px; margin-top: -110px'>
-            <h4><a href="article.html">Baby Driver</a></h4>
-            <div style="font-size:.6em;float:left;">Esta es la información de cada uno de los items</div>
-            </div>
-          </div>
-        </div>
-        <div class="tile red">
-          <div>
-            <div class="crop">
-              <img src='http://moviemom.maxlazebnik.com/wp-content/uploads/2017/06/baby-driver.jpg' class='iconDetails'>
-            </div>  
-            <div style='margin-left:165px; margin-top: -110px'>
-            <h4><a href="article.html">Baby Driver</a></h4>
-            <div style="font-size:.6em;float:left;">Esta es la información de cada uno de los items</div>
-            </div>
-          </div>
-        </div>
-        <div class="tile blue">
-          <div>
-            <div class="crop">
-              <img src='http://moviemom.maxlazebnik.com/wp-content/uploads/2017/06/baby-driver.jpg' class='iconDetails'>
-            </div>  
-            <div style='margin-left:165px; margin-top: -110px'>
-            <h4><a href="article.html">Baby Driver</a></h4>
-            <div style="font-size:.6em;float:left;">Esta es la información de cada uno de los items</div>
-            </div>
+        <div class="tile">
+          <div class="crop">
+            <img src='https://resources.tidal.com/images/7c298a27/caec/4058/9a7b/5f34cfd2c857/1280x1280.jpg' alt="Ícono 4:44" class='iconDetails'>
+          </div>  
+          <div class="tile__info">
+            <p class="tile__text">Música</p>
+            <h4><a href="article.html" class="tile__header">JAY-Z: 4:44</a></h4>
+            <p class="tile__text">Por tu interés en: Rap</p>
           </div>
         </div>
       </div>
@@ -257,68 +182,41 @@
     <footer>
       <div class="footerInfo">
         <ol>
-          <h4>Síguenos</h4>
+          <li><h4>Síguenos</h4></li>
           <li><a href="https://twitter.com">Twitter</a></li>
           <li><a href="https://facebook.com">Facebook</a></li>
           <li><a href="https://youtube.com">Youtube</a></li>
         </ol>
         <ol>
-          <h4>Información</h4>
-          <li><a href="#">Quiénes somos</a></li>
-          <li><a href="#">Editores</a></li>
-          <li><a href="#">Contáctanos</a></li>
+          <li><h4>Información</h4></li>
+          <li><a href="site-info.html">Quiénes somos</a></li>
+          <li><a href="writers.html">Editores</a></li>
         </ol>
       </div>
       <p>&copy; 2017 Punto Medio. Todos los derechos reservados.</p>
     </footer> 
-    <button onclick="topFunction()" id="to-top" title="Ir hasta arriba">Arriba</button>
+    <button onclick="topFunction()" id="button_top" title="Ir hasta arriba">Arriba</button>
+    <div class="modal__btn">          
+      <div id="id01" class="modal">
+        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+        <form class="modal-content animate">
+          <div class="imgcontainer">
+            <img src="img/avatar_default.jpg" alt="Avatar" class="avatar">
+          </div>
+          <div class="row-container">
+            <label><b>Nombre de usuario</b></label>
+            <input type="text" placeholder="Ingresa nombre de usuario" name="uname" required>
+            <label><b>Contraseña</b></label>
+            <input type="password" placeholder="Ingresa tu contraseña" name="psw" required>
+            <button class="btn__login" type="submit">Iniciar sesión</button>
+            <input type="checkbox" checked="checked"> Recuérdame
+          </div>
+          <div class="row-container" style="background-color:lightblue">
+            <a href="#" style="color: black"><strong>¿Olvidaste tu contraseña?</strong></a>
+            <button type="button"  onclick="document.getElementById('id01').style.display='none'" class="btn__form">Cancelar</button>
+          </div>
+        </form>
+      </div>
+    </div> 
   </body>
-  <div class="modal__btn">          
-    <div id="id01" class="modal">
-      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-      
-      <!-- Contenido del modal -->
-      <form class="modal-content animate">
-        <div class="imgcontainer">
-          <img src="img/avatar_default.jpg" alt="Avatar" class="avatar">
-        </div>
-
-        <div class="row-container">
-          <label><b>Nombre de usuario</b></label>
-          <input type="text" placeholder="Ingresa nombre de usuario" name="uname" required>
-
-          <label><b>Contraseña</b></label>
-          <input type="password" placeholder="Ingresa tu contraseña" name="psw" required>
-
-          <button class="btn__login" type="submit">Iniciar sesión</button>
-          <input type="checkbox" checked="checked"> Recuérdame
-        </div>
-
-        <div class="row-container" style="background-color:lightblue">
-          <a href="#" style="color: black"><strong>¿Olvidaste tu contraseña?</strong></a>
-          <button type="button"  onclick="document.getElementById('id01').style.display='none'" class="btn__form">Cancelar</button>
-        </div>
-      </form>
-    </div>
-  </div> <!-- btn modal-->
 </html>
-
-
-<script>
-// Cuando el usuario baja 20px desde arriba, se muestra el botón
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-    if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
-        document.getElementById("to-top").style.display = "block";
-    } else {
-        document.getElementById("to-top").style.display = "none";
-    }
-}
-
-// Cuando el usuario da click, se va hasta arriba del documento
-function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-}
-</script>

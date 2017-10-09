@@ -18,7 +18,8 @@ h1 {
 }
 
 h2 {
-  color: white;
+  color: #000;
+  text-align: center;
 }
 
 /* Títulos medianos */
@@ -99,6 +100,24 @@ aside {
   background-color: rgba(0, 0, 0, 0.9);
 }
 
+.search__bar{
+  padding: 10px 5px;
+  height: 17px;
+  width: 250px;
+  margin: 15px 0;
+  border-radius: 0;
+  font-size: 14px;
+}
+
+.search__button{
+  margin: 15px 0;
+  height: 38px;
+  background: #414141;
+  color: #fff;
+  cursor: pointer;
+  border: 0px;
+}
+
 #logo {
   font-family: "Lora";
   color: white;
@@ -108,6 +127,24 @@ aside {
 .footerInfo {
   display: flex;
   justify-content: center;
+}
+
+.tile__header{
+  color: black;
+}
+
+.tile__info{
+  margin-top: -140px;
+  margin-left: 165px;
+}
+
+.tile__text{
+  font-size: .8em;
+  /*float: left; */
+}
+
+.tile__border{
+  border-bottom: 2px solid #414141;
 }
 
 .form__register {/* SIGNUP: Inicia-----------------------------------------------------------------------*/
@@ -402,7 +439,7 @@ input {
     margin: 180px 0 40px 0;
 }
 
-#to-top {
+#button_top {
   display: none;
   position: fixed;
   bottom: 20px;
@@ -410,14 +447,14 @@ input {
   z-index: 99;
   border: none;
   outline: none;
-  background-color: green;
+  background-color: #126618;
   color: white;
   cursor: pointer;
   padding: 15px;
   border-radius: 10px;
 }
 
-#to-top:hover {
+#button_top:hover {
   background-color: #555;
 }
 
@@ -484,7 +521,8 @@ input {
 /*TERMINA: Estilo para los comentarios*/
 
 .login__register {
-  margin-top: 5px;
+  padding: 5px;
+  margin-top: 0px;
   color: white;
 }/* ARTICLE: Termina**********************************************************************************/
 
@@ -499,10 +537,8 @@ input {
 
 .tile {
   display: inline-block;
-  width:23%;
-  height:200px;
+  height:180px;
   margin:10px;
-  padding:0.5%;
   flex-grow: 1;
   width: calc(100% * (1/4) - 10px - 1px);
 }
@@ -577,22 +613,22 @@ main {
 }
 
 .iconDetails {
-  margin-left:2%;
+  margin-left: 2%;
   margin-top: 10%;
-  float:left; 
-  height:100%;
-  width:100%; 
-  scale
+  float: left; 
+  height: 100%;
+  width: 100%; 
+  
 } 
 
 .crop {
-    width: 150px;
-    height: 150px;
-    overflow: hidden;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
 }
 
 .crop img {
-    width: 200px;
-    height: 150px;
-    margin: 20% 0 0 10%;
+  width: 90%;
+  height: 90%;
+  margin: 10% 0 0 10%;
 } /* INDEX: Termina**********************************************************************************/
