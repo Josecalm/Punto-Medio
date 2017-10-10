@@ -2,28 +2,15 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<!--link rel="stylesheet" type="text/css" href="css/proyecto.css"-->
-		<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
-
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
-		
 		<title>Punto Medio | Baby Driver</title>
-
-		<!-- Loading third party fonts -->
-		<link href="http://fonts.googleapis.com/css?family=Roboto:300,400,700|" rel="stylesheet" type="text/css">
+		<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    	<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet" type="text/css">				
 		<link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
-
-		<!-- Loading main css file -->
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-		
-		<!--[if lt IE 9]>
-		<script src="js/ie-support/html5.js"></script>
-		<script src="js/ie-support/respond.js"></script>
-		<![endif]-->
+	    <script type="text/javascript" src="js/script.js"></script>
 	</head>
 	<body class="article-content">
-		<button onclick="topFunction()" id="to-top" title="Ir hasta arriba">Arriba</button>
+		<button onclick="topFunction()" id="button_top" title="Ir hasta arriba">Arriba</button>
 		<header class="mainBar">
 			<h1 id="logo"><a href="index.html">Punto · Medio</a></h1>
 			<nav class="mainMenu">
@@ -92,7 +79,7 @@
 					<ul class="comments">
 						<li class="thread-comment">								
 						  	<div class="user-comment"> 						  		
-						  		<a href="javascript:void(0);">
+						  		<a href="#">
 						  			<img src="img/caritafeliz.jpg" width="55" height="55" alt="CaritaFeliz photo avatar">
 						  		</a>
 							    <a class="test" href="javascript:void(0);"> <strong>CaritaFeliz </strong></a> - <span>publicado hace 3 días</span>
@@ -192,21 +179,3 @@
 </html>
 
 
-<script>
-// Cuando el usuario baja 20px desde arriba, se muestra el botón
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-    if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
-        document.getElementById("to-top").style.display = "block";
-    } else {
-        document.getElementById("to-top").style.display = "none";
-    }
-}
-
-// Cuando el usuario da click, se va hasta arriba del documento
-function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-}
-</script>
