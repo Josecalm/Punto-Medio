@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="js/script.js"></script>
   </head>
   <body>
     <header class="mainBar">
@@ -252,7 +253,7 @@
       </div>
       <p>&copy; 2017 Punto Medio. Todos los derechos reservados.</p>
     </footer> 
-    <button onclick="topFunction()" id="to-top" title="Ir hasta arriba">Arriba</button>
+    <button onclick="topFunction()" id="button_top" title="Ir hasta arriba">Arriba</button>
   </body>
   <div id="id01" class="modal">
       <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
@@ -282,24 +283,3 @@
     </div>
   </div> <!-- btn modal-->
 </html>
-
-<script>
-// Cuando el usuario baja 20px desde arriba, se muestra el botón
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-    if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
-        document.getElementById("to-top").style.display = "block";
-    } else {
-        document.getElementById("to-top").style.display = "none";
-    }
-}
-
-// Cuando el usuario da click, se va hasta arriba del documento
-function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-}
-</script>
-
-
