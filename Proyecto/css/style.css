@@ -175,6 +175,30 @@ aside {
   margin: 10% 12% 10% 10%;
 }
 
+#btn-admin {
+  margin: 20% 0% 2% 0%;
+  border-radius: 7px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 7px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  height: 50px;
+  width: 100px;
+  
+}
+
+#btn-admin:hover{
+  background-color: #3e8e41;
+}
+
+.admin__div{
+  background-color: darkgray;
+  text-align: center;
+  justify-content: space-between;
+}
+
 .form__register {/* SIGNUP: Inicia-----------------------------------------------------------------------*/
   width: 98%;
   max-width: 500px;
