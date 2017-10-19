@@ -133,6 +133,14 @@ aside {
   background-color: rgba(131, 16, 16, 0.9);
 }
 
+.shows {
+  background-color: rgba(239, 127, 26, 0.9);
+}
+
+.music {
+  background-color: rgba(30, 215, 96, 0.9);
+}
+
 .footerInfo {
   display: flex;
   justify-content: center;
