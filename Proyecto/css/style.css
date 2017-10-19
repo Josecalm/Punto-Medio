@@ -25,6 +25,13 @@ h2 {
 #section__title {
   text-align: left;
   margin-left: 10%;
+  border-bottom: 2px solid lightgray;
+}
+
+#post__title {
+  text-align: left;
+  border-bottom: 2px solid lightgray;
+  margin-bottom: 5%;
 }
 
 /* Títulos medianos */
@@ -164,6 +171,9 @@ aside {
   border-bottom: 2px solid #414141;
 }
 
+.post-form{
+  margin: 10% 12% 10% 10%;
+}
 
 .form__register {/* SIGNUP: Inicia-----------------------------------------------------------------------*/
   width: 98%;
