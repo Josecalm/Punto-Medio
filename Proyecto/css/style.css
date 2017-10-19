@@ -101,6 +101,10 @@ aside {
   margin-top: 80px;
 }
 
+h4 a{
+  margin: 0px;
+}
+
 .mainBar {
   display: flex;
   justify-content: space-between;
@@ -175,7 +179,7 @@ aside {
   margin: 10% 12% 10% 10%;
 }
 
-#btn-admin {
+.btn__admin {
   margin: 20% 0% 2% 0%;
   border-radius: 7px;
   background-color: #4CAF50;
@@ -186,7 +190,7 @@ aside {
   cursor: pointer;
   height: 50px;
   width: 100px;
-  
+
 }
 
 #btn-admin:hover{
@@ -615,11 +619,24 @@ input {
 }
 
 .tile {
-  display: inline-block;
+  display: inline;
   height:180px;
   margin:10px;
   flex-grow: 1;
   width: calc(100% * (1/4) - 10px - 1px);
+}
+
+.tile__admin{
+  display: inline;
+  height:180px;
+  margin:10px;
+  width: 70%;
+  flex-grow: 1;
+  width: calc(100% * (1/2) - 10px - 1px);
+}
+
+.tile-data{
+  width: 70%;
 }
 
 .green {
