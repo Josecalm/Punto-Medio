@@ -16,9 +16,12 @@ function topFunction() {
 
 function showMorePosts() {
     var x = document.getElementById("morePosts");
+    var y = document.getElementById("showMorePosts");
     if (x.style.display === "none") {
         x.style.display = "flex";
+        y.style.display = "none";
     } else {
         x.style.display = "none";
     }
 }
+
