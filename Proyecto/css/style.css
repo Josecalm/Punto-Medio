@@ -200,8 +200,21 @@ h4 a{
 }
 
 .admin__div{
+  margin-top: 73px;
   text-align: center;
   justify-content: space-between;
+  padding: 10%;
+}
+
+.posts {
+  margin-top: 10%;
+
+}
+
+.more-posts{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .form__register {/* SIGNUP: Inicia-----------------------------------------------------------------------*/
@@ -598,6 +611,7 @@ input {
 }
 
 #morePosts {
+  margin-top: -700px;
   flex-wrap: wrap;
   width: 80%;
   height: 20%;
