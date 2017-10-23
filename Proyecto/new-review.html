@@ -20,10 +20,10 @@
         </ul>
       </nav>
       <form action="search-results.html" method="POST">
-        <input class="search__bar" type="text" name="searchBar" placeholder="Búsqueda">
-        <button class="search__button"><i class="fa fa-search fa-lg"></i></button>
+        <input class="search-bar" type="text" name="searchBar" placeholder="Búsqueda">
+        <button class="search-button"><i class="fa fa-search fa-lg"></i></button>
       </form>
-      <div class="login__register dropdown">
+      <div class="login-register dropdown">
         <button class="button-default" href="#" onclick="document.getElementById('login_modal').style.display='block'">Cuenta</button>
         <div class="dropdown-content">
           <a href="#" onclick="document.getElementById('login_modal').style.display='block'">Iniciar sesión</a>
@@ -33,7 +33,7 @@
     </header>
     <div class="post-form">
       <form>
-        <h2 id="post__title">Contenido Principal</h2>
+        <h2 id="post-title">Contenido Principal</h2>
         <strong>Título de cabecera:</strong><br>
         <input class="input-42" type="text" name="title"><br> <br>
         <strong>Enlace de imagen de cabecera:</strong><br>
@@ -42,7 +42,7 @@
         <textarea name="content" rows="10" cols="100%"></textarea> <br> <br>
         <strong>Calificación:</strong><br>
         <input class="input-42" type="number" name="rating" step=".5" min="0" max="5" placeholder="1 a 5 estrellas"><br> <br>
-        <h2 id="post__title">Ficha técnica</h2>
+        <h2 id="post-title">Ficha técnica</h2>
         <strong>Duración:</strong><br>
         <input class="input-42" type="text" name="duration"><br>
         <strong>Estreno:</strong><br>
@@ -75,7 +75,7 @@
       <p>&copy; 2017 Punto Medio. Todos los derechos reservados.</p>
     </footer> 
     <button onclick="topFunction()" id="button_top" title="Ir hasta arriba">Arriba</button>
-    <div class="modal__btn">          
+    <div class="modal-btn">          
       <div id="login_modal" class="modal">
         <span onclick="document.getElementById('login_modal').style.display='none'" class="close" title="Close Modal">&times;</span>
         <form class="modal-content animate" action="user-index.html">
@@ -87,12 +87,12 @@
             <input type="text" placeholder="Ingresa nombre de usuario" name="uname" required>
             <label><b>Contraseña</b></label>
             <input type="password" placeholder="Ingresa tu contraseña" name="psw" required>
-            <button class="btn__login" type="submit">Iniciar sesión</button>
+            <button class="btn-login" type="submit">Iniciar sesión</button>
             <input type="checkbox" checked="checked"> Recuérdame
           </div>
           <div class="row-container" style="background-color:lightblue">
             <a href="pw-reset.html" style="color: black"><strong>¿Olvidaste tu contraseña?</strong></a>
-            <button type="button"  onclick="document.getElementById('login_modal').style.display='none'" class="btn__form">Cancelar</button>
+            <button type="button"  onclick="document.getElementById('login_modal').style.display='none'" class="btn-form">Cancelar</button>
           </div>
         </form>
       </div>

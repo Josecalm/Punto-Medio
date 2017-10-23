@@ -17,7 +17,7 @@
             <li><a href="music.html">Música</a></li>
           </ul>
       </nav>
-      <div class="login__register dropdown">
+      <div class="login-register dropdown">
         <button class="button-default" href="#" onclick="document.getElementById('login_modal').style.display='block'">Cuenta</button>
         <div class="dropdown-content">
           <a href="#" onclick="document.getElementById('login_modal').style.display='block'">Iniciar sesión</a>
@@ -25,53 +25,24 @@
         </div>
       </div>
   </header>
-  <form class="form__register">
-    <h3 class="form__titulo">Crear una nueva cuenta</h3>
-    <div class="container__inputs">
+  <form class="form-register">
+    <h3 class="form-titulo">Crear una nueva cuenta</h3>
+    <div class="container-inputs">
       <input class="input-42" type="text" name="nombre" placeholder="&#128100; Nombre" required>
       <input class="input-42" type="text" name="apellidos" placeholder="&#128100; Apellidos" required>
       <input class="input-100" type="text" name="email" placeholder="&#9993; Correo electrónico" required>
       <input class="input-100" type="text" name="usuario" placeholder="&#128100; Nombre de usuario" required>
       <input class="input-42" type="password" name="clave" placeholder="&#128273; Contraseña" required>
       <input class="input-42" type="password" name="confirmar-clave" placeholder="&#128273; Repetir contraseña" required>
-      <input class="btn__form" type="submit" value="Registrar">
-      <input class="btn__form" type="reset" name="" value="Limpiar">
-      <input class="btn__form blue-fb" type="reset" name="" value="Registrar con Facebook">
+      <input class="btn-form" type="submit" value="Registrar">
+      <input class="btn-form" type="reset" name="" value="Limpiar">
+      <input class="btn-form blue-fb" type="reset" name="" value="Registrar con Facebook">
     </div>
   </form>
-  <div class="row__aregister">
-    <p class="form__link" >¿Ya tienes una cuenta?
-      <button class="btn__login" onclick="document.getElementById('login_modal').style.display='block'">Inicia sesión aquí</button>    
-    </p>
-    <!-- Modal -->
-    <div class="modal__btn">          
-      <div id="login_modal" class="modal">
-        <span onclick="document.getElementById('login_modal').style.display='none'" class="close" title="Close Modal">&times;</span>
-        
-        <!-- Contenido del modal -->
-        <form class="modal-content animate">
-          <div class="imgcontainer">
-            <img src="img/avatar_default.jpg" alt="Avatar" class="avatar">
-          </div>
-
-          <div class="row-container">
-            <label><b>Nombre de usuario</b></label>
-            <input type="text" placeholder="Ingresa nombre de usuario" name="uname" required>
-
-            <label><b>Contraseña</b></label>
-            <input type="password" placeholder="Ingresa tu contraseña" name="psw" required>
-
-            <button class="btn__login" type="submit">Iniciar sesión</button>
-            <input type="checkbox" checked="checked"> Recuérdame
-          </div>
-
-          <div class="row-container" style="background-color:lightblue">
-            <a href="pw-reset.html" style="color: black"><strong>¿Olvidaste tu contraseña?</strong></a>
-            <button type="button"  onclick="document.getElementById('login_modal').style.display='none'" class="btn__form">Cancelar</button>
-          </div>
-        </form>
-      </div>
-    </div> <!-- btn modal-->
+  <div class="row-aregister">
+    <p class="form-link" >¿Ya tienes una cuenta?
+      <button class="btn-login" onclick="document.getElementById('login_modal').style.display='block'">Inicia sesión aquí</button>    
+    </p>    
   </div> <!-- row already register -->
   
   <footer>
@@ -92,4 +63,35 @@
         <p>&copy; 2017 Punto Medio. Todos los derechos reservados.</p>
   </footer> 
 </body>
+
+<!-- Modal -->
+    <div class="modal-btn">          
+      <div id="login_modal" class="modal">
+        <span onclick="document.getElementById('login_modal').style.display='none'" class="close" title="Close Modal">&times;</span>
+        
+        <!-- Contenido del modal -->
+        <form class="modal-content animate">
+          <div class="imgcontainer">
+            <img src="img/avatar_default.jpg" alt="Avatar" class="avatar">
+          </div>
+
+          <div class="row-container">
+            <label><b>Nombre de usuario</b></label>
+            <input type="text" placeholder="Ingresa nombre de usuario" name="uname" required>
+
+            <label><b>Contraseña</b></label>
+            <input type="password" placeholder="Ingresa tu contraseña" name="psw" required>
+
+            <button class="btn-login" type="submit">Iniciar sesión</button>
+            <input type="checkbox" checked="checked"> Recuérdame
+          </div>
+
+          <div class="row-container" style="background-color:lightblue">
+            <a href="pw-reset.html" style="color: black"><strong>¿Olvidaste tu contraseña?</strong></a>
+            <button type="button"  onclick="document.getElementById('login_modal').style.display='none'" class="btn-form">Cancelar</button>
+          </div>
+        </form>
+      </div>
+    </div> <!-- btn modal-->
+
 </html>

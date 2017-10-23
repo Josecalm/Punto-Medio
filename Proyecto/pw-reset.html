@@ -17,7 +17,7 @@
             <li><a href="music.html">Música</a></li>
           </ul>
       </nav>
-      <div class="login__register dropdown">
+      <div class="login-register dropdown">
         <button class="button-default" href="#" onclick="document.getElementById('login_modal').style.display='block'">Cuenta</button>
         <div class="dropdown-content">
           <a href="#" onclick="document.getElementById('login_modal').style.display='block'">Iniciar sesión</a>
@@ -25,17 +25,17 @@
         </div>
       </div>
   </header>
-  <form class="form__reset">
-    <h3 class="form__titulo">Restablecer contraseña</h3>
-    <div class="container__inputs">
+  <form class="form-reset">
+    <h3 class="form-titulo">Restablecer contraseña</h3>
+    <div class="container-inputs">
       <input class="input-42" type="text" name="email" placeholder="&#128100; Correo:" required>
-      <input class="btn__form" type="submit" value="Registrar">
-      <input class="btn__form" type="reset" name="" value="Limpiar">
+      <input class="btn-form" type="submit" value="Registrar">
+      <input class="btn-form" type="reset" name="" value="Limpiar">
     </div>
   </form>
-  <div class="row__aregister">
+  <div class="row-aregister">
     <!-- Modal -->
-    <div class="modal__btn">          
+    <div class="modal-btn">          
       <div id="login_modal" class="modal">
         <span onclick="document.getElementById('login_modal').style.display='none'" class="close" title="Close Modal">&times;</span>
         
@@ -52,13 +52,13 @@
             <label><b>Contraseña</b></label>
             <input type="password" placeholder="Ingresa tu contraseña" name="psw" required>
 
-            <button class="btn__login" type="submit">Iniciar sesión</button>
+            <button class="btn-login" type="submit">Iniciar sesión</button>
             <input type="checkbox" checked="checked"> Recuérdame
           </div>
 
           <div class="row-container" style="background-color:lightblue">
             <a href="pw-reset.html" style="color: black"><strong>¿Olvidaste tu contraseña?</strong></a>
-            <button type="button"  onclick="document.getElementById('login_modal').style.display='none'" class="btn__form">Cancelar</button>
+            <button type="button"  onclick="document.getElementById('login_modal').style.display='none'" class="btn-form">Cancelar</button>
           </div>
         </form>
       </div>
