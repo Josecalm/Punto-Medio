@@ -116,6 +116,7 @@ h4 a{
   background-color: rgba(0, 0, 0, 0.9);
 }
 
+
 .search-bar{
   padding: 10px 5px;
   height: 17px;
@@ -314,7 +315,7 @@ input {
 
 /* MODAL */
  /* Background del modal */
-.modal {
+.modal {    
     display: none;
     position: absolute;
     z-index: 0;
@@ -323,9 +324,10 @@ input {
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0,0,0,1);
     padding-top: 60px;
     text-align: center;
+    padding-top: 15%;
 }
 
 #delete_modal{
@@ -668,7 +670,7 @@ input {
   width: calc(100% * (1/4) - 10px - 1px);
 }
 
-.tile-admin{
+.tile--admin{
   display: flex;
   height:180px;
   margin:10px;
@@ -682,7 +684,7 @@ input {
   display: block;
 }
 
-.tile-btns{
+.tile--admin-btns{
   margin: 30px 50px 100px 50px;
   width: 20%;
   text-align: center;
@@ -705,7 +707,7 @@ input {
 }
 
 .yellow:hover {
-  background: #e65100
+  background: #f57f17;
 }
 
 .red {
