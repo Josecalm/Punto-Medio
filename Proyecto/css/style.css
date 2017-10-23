@@ -22,13 +22,13 @@ h2 {
   text-align: center;
 }
 
-#section__title {
+#section-title {
   text-align: left;
   margin-left: 10%;
   border-bottom: 2px solid lightgray;
 }
 
-#post__title {
+#post-title {
   text-align: left;
   border-bottom: 2px solid lightgray;
   margin-bottom: 5%;
@@ -116,7 +116,7 @@ h4 a{
   background-color: rgba(0, 0, 0, 0.9);
 }
 
-.search__bar{
+.search-bar{
   padding: 10px 5px;
   height: 17px;
   width: 250px;
@@ -125,7 +125,7 @@ h4 a{
   border: 0px;
 }
 
-.search__button{
+.search-button{
   margin: 15px 0;
   height: 38px;
   background: #414141;
@@ -161,21 +161,21 @@ h4 a{
   justify-content: center;
 }
 
-.tile__header{
+.tile-header{
   color: black;
 }
 
-.tile__info{
+.tile-info{
   margin-top: -140px;
   margin-left: 165px;
 }
 
-.tile__text{
+.tile-text{
   font-size: .8em;
   /*float: left; */
 }
 
-.tile__border{
+.tile-border{
   border-bottom: 2px solid #414141;
 }
 
@@ -185,7 +185,7 @@ h4 a{
 
 .button-default {
   border-radius: 7px;
-  background-color: green;
+  background-color: #4CAF50;
   color: white;
   padding: 7px;
   font-size: 16px;
@@ -196,10 +196,18 @@ h4 a{
 }
 
 .button-default:hover{
-  background-color: darkgreen;
+  background-color: #1B5E20;
 }
 
-.admin__div{
+#new_post {
+  margin-left: 40px;
+  margin-bottom: 5px;
+  padding: 1px;
+  height: 35px;
+  width: 80px;
+}
+
+.admin-div{
   margin-top: 73px;
   text-align: center;
   justify-content: space-between;
@@ -217,7 +225,7 @@ h4 a{
   margin-bottom: 20px;
 }
 
-.form__register {/* SIGNUP: Inicia-----------------------------------------------------------------------*/
+.form-register {/* SIGNUP: Inicia-----------------------------------------------------------------------*/
   width: 98%;
   max-width: 500px;
   margin-left: 440px;
@@ -227,7 +235,7 @@ h4 a{
   border-style: solid;
 }
 
-.form__reset {
+.form-reset {
   width: 98%;
   max-width: 500px;
   margin-left: 440px;
@@ -239,7 +247,7 @@ h4 a{
   margin-bottom: 12%;
 }
 
-.form__titulo {
+.form-titulo {
   margin-top: 0px;
   margin-bottom: 0px;
   background: black;
@@ -255,7 +263,7 @@ h4 a{
   border-bottom: 5px solid crimson;
 }
 
-.container__inputs {
+.container-inputs {
   padding: 10px 30px;
   display: flex;
   flex-wrap: wrap;
@@ -270,7 +278,7 @@ input {
   border: 1px solid darkgray;
 }
 
-.input__placeholder {
+.input-placeholder {
   margin-bottom: 15px;
   padding: 15px;
   font-size: 16px;
@@ -289,7 +297,7 @@ input {
   width: 100%;
 }
 
-.btn__form {
+.btn-form {
   background: #dc143c;
   color: #fff;
   margin: auto;
@@ -299,7 +307,7 @@ input {
   border: 0px;
 }
 
-.form__link {
+.form-link {
   width: 100%;
   font-size: 12px;
 }
@@ -320,12 +328,17 @@ input {
     text-align: center;
 }
 
+#delete_modal{
+  padding-top: 15%;
+}
+
 /* Modal Content/Box */
 .modal-content {
     background-color: #fefefe;
     margin: 5px auto;
     border: 1px solid #888;
     width: 80%;
+    padding: 20px;
 }
 
 /* Botón de cerrar */
@@ -361,13 +374,13 @@ input {
     to {transform: scale(1)}
 } 
 
-.row__aregister{
+.row-aregister{
   margin-bottom: 5px;
   margin-top: 10px;
   text-align:  center;
 }
 
-.btn__login{
+.btn-login{
   padding: 2px;
   background: #1dafac;
   color: #fff;
@@ -378,11 +391,11 @@ input {
   border: 0px;
 }
 
-.btn__login:hover{
+.btn-login:hover{
   background: #176c6b;
 }
 
-.btn__form:hover{
+.btn-form:hover{
   background-color: #B71C1C;
 }/* SIGNUP: Termina**********************************************************************************/
 
@@ -458,7 +471,7 @@ input {
   border-bottom: 5px solid crimson;
 }
 
-.input__container {
+.input-container {
   padding: 20px;
 }
 
@@ -466,7 +479,7 @@ input {
   margin-left: -100px;
 }
 
-.input__account{
+.input-account{
   margin-bottom: 5px;
   padding: 3px;
   font-size: 15px;
@@ -595,7 +608,7 @@ input {
 
 /*TERMINA: Estilo para los comentarios*/
 
-.login__register {
+.login-register {
   padding: 5px;
   margin-top: 7px;
   color: white;
@@ -643,6 +656,10 @@ input {
   text-align: center;
 }
 
+.right {
+  text-align: right;
+}
+
 .tile {
   display: inline;
   height:180px;
@@ -651,30 +668,48 @@ input {
   width: calc(100% * (1/4) - 10px - 1px);
 }
 
-.tile__admin{
-  display: inline;
+.tile-admin{
+  display: flex;
   height:180px;
   margin:10px;
-  width: 70%;
+  width: 100%;
   flex-grow: 1;
-  width: calc(100% * (1/2) - 10px - 1px);
   border-bottom: 2px solid #414141;
 }
 
 .tile-data{
-  width: 70%;
+  width: 80%;
+  display: block;
+}
+
+.tile-btns{
+  margin: 30px 50px 100px 50px;
+  width: 20%;
+  text-align: center;
 }
 
 .green {
-  background:#66dd99;
+  background:#4CAF50;
 }
 
 .blue {
   background:#1dafac;
 }
 
+.yellow {
+  background: #FFC107;
+}
+
+.yellow:hover {
+  background: #E65100
+}
+
 .red {
-  background:#ff4466;
+  background:#F44336;
+}
+
+.red:hover {
+  background: #B71C1C; 
 }
 
 .blue-fb {
