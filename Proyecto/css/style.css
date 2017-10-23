@@ -183,7 +183,7 @@ h4 a{
   margin: 10% 12% 10% 10%;
 }
 
-.button-default {
+.button {
   border-radius: 7px;
   background-color: #4CAF50;
   color: white;
@@ -195,7 +195,7 @@ h4 a{
   width: 100px;
 }
 
-.button-default:hover{
+.button:hover{
   background-color: #1B5E20;
 }
 
@@ -445,7 +445,7 @@ input {
 
 .inputfile:focus + label,
 .inputfile + label:hover {
-    background-color: red;
+    background-color: gray;
 }
 
 #avatarLabel {
@@ -689,27 +689,31 @@ input {
 }
 
 .green {
-  background:#4CAF50;
+  background:#4caf50;
 }
 
 .blue {
-  background:#1dafac;
+  background:#2196f3;
+}
+
+.blue:hover {
+  background:#0d47a1;
 }
 
 .yellow {
-  background: #FFC107;
+  background: #ffc107;
 }
 
 .yellow:hover {
-  background: #E65100
+  background: #e65100
 }
 
 .red {
-  background:#F44336;
+  background:#f44336;
 }
 
 .red:hover {
-  background: #B71C1C; 
+  background: #b71C1c; 
 }
 
 .blue-fb {

@@ -19,7 +19,7 @@
         </ul>
       </nav>
       <div class="login-register dropdown">
-        <button class="button-default " href="account.html">José Carlos
+        <button class="button " href="account.html">José Carlos
           <!--span><img class="user-avatar" src="img/avatar_default.jpg" alt="Avatar Usuario"></span-->
         </button>
         <div class="dropdown-content">
@@ -30,15 +30,14 @@
 
     </header>
     <aside class="posts">
-      <h2 id="section-title">
-      Tus posts
-      <span>
-        <button class="button-default blue" id="new_post" title="Crear nuevo post"> + Nuevo </button>
-      </span>
+      <h2 id="section-title">Tus posts
+        <span>
+          <button class="button blue" id="new_post" title="Crear nuevo post" type="submit">  
+            <a href="new-post.html"> + Nuevo </a>
+          </button>
+        </span>
       </h2>
-
       <div class="container"> 
-
         <div class="tile-admin">
           <div class="tile-data">
             <div class="crop">
@@ -52,8 +51,8 @@
             </div>
           </div>
           <div class="tile-btns">
-            <button class="button-default yellow">Modificar</button><br><br>
-            <button class="button-default red"  onclick="document.getElementById('delete_modal').style.display='block'" >Eliminar</button>
+            <button class="button yellow">Modificar</button><br><br>
+            <button class="button red"  onclick="document.getElementById('delete_modal').style.display='block'" >Eliminar</button>
           </div> 
         </div>
         
@@ -91,8 +90,8 @@
         </div>
         <label><b>¿Estás seguro de eliminar este post?</b></label>
         <div class="row">
-          <button class="button-default" type="submit">Cancelar</button>
-          <button class="button-default red" type="submit">Sí, eliminar</button>
+          <button class="button" type="submit">Cancelar</button>
+          <button class="button red" type="submit">Sí, eliminar</button>
         </div>
       </form>
     </div>
