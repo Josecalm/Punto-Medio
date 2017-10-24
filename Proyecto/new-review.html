@@ -35,27 +35,27 @@
       <form>
         <h2 id="post-title">Contenido Principal</h2>
         <strong>Título de cabecera:</strong><br>
-        <input class="input-42" type="text" name="title"><br> <br>
+        <input class="input-42" type="text" name="title" required><br> <br>
         <strong>Enlace de imagen de cabecera:</strong><br>
-        <input class="input-42" type="text" name="image"><br> <br>
+        <input class="input-42" type="text" name="image" required><br> <br>
         <strong>Contenido:</strong><br>
-        <textarea name="content" rows="10" cols="100%"></textarea> <br> <br>
+        <textarea name="content" rows="10" cols="100%" required></textarea> <br> <br>
         <strong>Calificación:</strong><br>
-        <input class="input-42" type="number" name="rating" step=".5" min="0" max="5" placeholder="1 a 5 estrellas"><br> <br>
+        <input class="input-42" type="number" name="rating" step=".5" min="0" max="5" placeholder="1 a 5 estrellas" required><br> <br>
         <h2 id="post-title">Ficha técnica</h2>
         <strong>Duración:</strong><br>
-        <input class="input-42" type="text" name="duration"><br>
+        <input class="input-42" type="text" name="duration" required><br>
         <strong>Estreno:</strong><br>
-        <input class="input-42" type="text" name="duration"><br>
+        <input class="input-42" type="text" name="duration" required><br>
         <strong>Categoría:</strong><br>
-        <input class="input-42" type="text" name="duration"><br>
+        <input class="input-42" type="text" name="duration" required><br>
         <strong>Director:</strong><br>
-        <input class="input-42" type="text" name="duration"><br>
+        <input class="input-42" type="text" name="duration" required><br>
         <strong>Guión:</strong><br>
-        <input class="input-42" type="text" name="duration"><br>
+        <input class="input-42" type="text" name="duration" required><br>
         <strong>Reparto:</strong><br>
-        <input class="input-42" type="text" name="duration"><br>
-
+        <input class="input-42" type="text" name="duration" required><br>
+        <button class="button blue large" type="submit" id="submit-review" onclick="document.getElementById('success-modal').style.display='block'">Enviar</button>
       </form>
     </div>
     <footer>
@@ -97,5 +97,16 @@
         </form>
       </div>
     </div> 
+    <div id="success-modal" class="modal">
+      <span onclick="document.getElementById('success-modal').style.display='none'" class="close" title="Close Modal">&times;</span>
+      
+      <!-- Contenido del modal -->
+      <form class="modal-content animate">
+        <div class="row">
+          <img class="crop" src='http://www.clipartbest.com/cliparts/xig/67a/xig67ak5T.gif' alt="Enviado con éxito"> 
+          
+        </div>
+      </form>
+    </div>
   </body>
 </html>

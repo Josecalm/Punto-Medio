@@ -335,6 +335,10 @@ input {
   padding-top: 15%;
 }
 
+#success-modal{
+  padding-top: 15%;
+}
+
 /* Modal Content/Box */
 .modal-content {
     background-color: #fefefe;
@@ -425,8 +429,9 @@ input {
 }
 
 #avatarPic {
-  margin-left: 190px;
+  margin-left: 59%;
 }
+
 
 .inputfile {
   width: 0.1px;
@@ -836,8 +841,8 @@ main {
   box-sizing: border-box;
 }
 
-#myInput {
-  background-image: url('icons/searchicon.png');
+#input-username {
+  background-image: url('');
   background-position: 10px 12px;
   background-repeat: no-repeat;
   width: 100%;
@@ -847,13 +852,13 @@ main {
   margin-bottom: 12px;
 }
 
-#myUL {
+#userUL {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
-#myUL li a {
+#userUL li a {
   border: 1px solid #ddd;
   margin-top: -1px; /* Prevent double borders */
   background-color: #f6f6f6;
@@ -864,7 +869,7 @@ main {
   display: block
 }
 
-#myUL li a:hover:not(.header) {
+#userUL li a:hover:not(.header) {
   background-color: #eee;
 }
 

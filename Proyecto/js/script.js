@@ -27,9 +27,9 @@ function showMorePosts() {
 
 function filterUsers() {
     var input, filter, ul, li, a, i;
-    input = document.getElementById("myInput");
+    input = document.getElementById("input-username");
     filter = input.value.toUpperCase();
-    ul = document.getElementById("myUL");
+    ul = document.getElementById("userUL");
     li = ul.getElementsByTagName("li");
     for (i = 0; i < li.length; i++) {
         a = li[i].getElementsByTagName("a")[0];
