@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Punto · Medio</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="js/script.js"></script>
+  </head>
+  <body>
+    <header class="mainBar">
+      <h1 id="logo"><a href="index.html">Punto · Medio</a></h1>
+      <nav class="mainMenu">
+        <ul>
+            <li><a href="movies.html">Películas</a></li>
+            <li><a href="shows.html">Series</a></li>
+            <li><a href="music.html">Música</a></li>
+        </ul>
+      </nav>
+      <form action="search-results.html" method="POST">
+        <input class="search-bar" type="text" name="searchBar" placeholder="Búsqueda">
+        <button class="search-button"><i class="fa fa-search fa-lg"></i></button>
+      </form>
+      <div class="login-register dropdown">
+        <button class="button" href="#" onclick="document.getElementById('login_modal').style.display='block'">Cuenta</button>
+        <div class="dropdown-content">
+          <a href="#" onclick="document.getElementById('login_modal').style.display='block'">Iniciar sesión</a>
+          <a <a href="signup.html">Registrarse</a></li>
+        </div>
+      </div>
+    </header>
+    <div class="post-form">
+      <form action="admin-index.html">
+        <h2 id="post-title">Contenido Principal</h2>
+        <strong>Título de cabecera:</strong><br>
+        <input class="input-42" type="text" name="title" required><br> <br>
+        <strong>Enlace de imagen de cabecera:</strong><br>
+        <input class="input-42" type="text" name="image" required><br> <br>
+        <strong>Contenido:</strong><br>
+        <textarea name="content" rows="10" cols="100%" required></textarea> <br> <br>
+        <button class="button blue large" type="submit" id="submit-post">Enviar</button>
+      </form>
+      
+    </div>
+    <footer>
+      <div class="footerInfo">
+        <ol>
+          <li><h4>Síguenos</h4></li>
+          <li><a href="https://twitter.com">Twitter</a></li>
+          <li><a href="https://facebook.com">Facebook</a></li>
+          <li><a href="https://youtube.com">Youtube</a></li>
+        </ol>
+        <ol>
+          <li><h4>Información</h4></li>
+          <li><a href="site-info.html">Quiénes somos</a></li>
+          <li><a href="writers.html">Editores</a></li>
+        </ol>
+      </div>
+      <p>&copy; 2017 Punto Medio. Todos los derechos reservados.</p>
+    </footer> 
+    <button onclick="topFunction()" id="button_top" title="Ir hasta arriba">Arriba</button>
+    <div class="modal-btn">          
+      <div id="login_modal" class="modal">
+        <span onclick="document.getElementById('login_modal').style.display='none'" class="close" title="Close Modal">&times;</span>
+        <form class="modal-content animate" action="user-index.html">
+          <div class="imgcontainer">
+            <img src="img/avatar_default.jpg" alt="Avatar" class="avatar">
+          </div>
+          <div class="row-container">
+            <label><b>Nombre de usuario</b></label>
+            <input type="text" placeholder="Ingresa nombre de usuario" name="uname" required>
+            <label><b>Contraseña</b></label>
+            <input type="password" placeholder="Ingresa tu contraseña" name="psw" required>
+            <button class="btn-login" type="submit">Iniciar sesión</button>
+            <input type="checkbox" checked="checked"> Recuérdame
+          </div>
+          <div class="row-container" style="background-color:lightblue">
+            <a href="pw-reset.html" style="color: black"><strong>¿Olvidaste tu contraseña?</strong></a>
+            <button type="button"  onclick="document.getElementById('login_modal').style.display='none'" class="btn-form">Cancelar</button>
+          </div>
+        </form>
+      </div>
+    </div> 
+  </body>
+</html>

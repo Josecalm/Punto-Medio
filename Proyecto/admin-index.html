@@ -14,9 +14,9 @@
       <h1 id="logo"><a href="index.html">Punto · Medio</a></h1>
       <nav class="mainMenu">
         <ul>
-            <li><a href="movies.html">Películas</a></li>
-            <li><a href="shows.html">Series</a></li>
-            <li><a href="music.html">Música</a></li>
+          <li><a href="movies.html">Películas</a></li>
+          <li><a href="shows.html">Series</a></li>
+          <li><a href="music.html">Música</a></li>
         </ul>
       </nav>
       <form action="search-results.html" method="POST">
@@ -24,35 +24,26 @@
         <button class="search-button"><i class="fa fa-search fa-lg"></i></button>
       </form>
       <div class="login-register dropdown">
-        <button class="button" href="#" onclick="document.getElementById('login_modal').style.display='block'">Cuenta</button>
+        <button class="button" href="account.html">José Carlos
+          <!--span><img class="user-avatar" src="img/avatar_default.jpg" alt="Avatar Usuario"></span-->
+        </button>
         <div class="dropdown-content">
-          <a href="#" onclick="document.getElementById('login_modal').style.display='block'">Iniciar sesión</a>
-          <a <a href="signup.html">Registrarse</a></li>
+          <a href="posts.html">Tus posts</a>
+          <a href="users.html"> Usuarios </a>
+          <a <a href="index.html">Cerrar Sesión</a></li>
         </div>
       </div>
     </header>
-    <main>
-      <figure class="slider">
-        <figure>
-          <img src="https://news.newonnetflix.info/wp-content/uploads/2017/03/master-of-none.jpg" alt="Imagen Master Of None">
-          <figcaption><a href="article.html" class="story">Master of None: Aziz Ansari regresa a Netflix con su 2da. temporada.</a></figcaption>
-        </figure>
-        <figure>
-          <img src="https://in.bookmyshow.com/entertainment/wp-content/uploads/2017/06/Baby-Driver-Poster.jpg" alt="Imagen Baby Driver">
-          <figcaption><a href="article.html" class="story">Baby Driver: Edgar Wright se enfoca más en la acción en su nueva película.</a></figcaption>
-        </figure>
-        <figure>
-          <img src="http://www.rockalternativo.cl/home/wp-content/uploads/2017/08/qo.jpg" alt="Imagen QOTSA">
-          <figcaption><a href="article.html" class="story">Villains: Josh Homme se reúne con Mark Ronson en el nuevo álbum de QOTSA.</a></figcaption>
-        </figure>
-        <figure>
-          <img src="https://news.newonnetflix.info/wp-content/uploads/2017/03/master-of-none.jpg" alt="Imagen Master Of None">
-          <figcaption><a href="article.html">Master of None: Aziz Ansari regresa a Netflix con su 2da. temporada.</a></figcaption>
-        </figure>
-      </figure>
-    </main>
+    <div class="admin-div darkgray">
+      <button class="button">
+        <a href="posts.html">Posts</a>
+      </button>
+      <button class="button"> 
+        <a href="users.html">Usuarios</a>
+      </button>
+    </div>
     <aside>
-      <h2 id="section-title">Lo nuevo esta semana</h2>
+      <h2>Lo nuevo esta semana</h2>
       <div class="container"> 
         <div class="tile tile-border">
           <div class="crop">
@@ -117,7 +108,7 @@
       </div>
     </aside>
     <aside>
-      <h2 id="section-title">Recomendado para ti</h2>
+      <h2>Recomendado para ti</h2>
       <div class="container"> 
         <div class="tile tile-border">
           <div class="crop">
@@ -198,27 +189,5 @@
       <p>&copy; 2017 Punto Medio. Todos los derechos reservados.</p>
     </footer> 
     <button onclick="topFunction()" id="button_top" title="Ir hasta arriba">Arriba</button>
-    <div class="modal-btn">          
-      <div id="login_modal" class="modal">
-        <span onclick="document.getElementById('login_modal').style.display='none'" class="close" title="Close Modal">&times;</span>
-        <form class="modal-content animate" action="user-index.html">
-          <div class="imgcontainer">
-            <img src="img/avatar_default.jpg" alt="Avatar" class="avatar">
-          </div>
-          <div class="row-container">
-            <label><b>Nombre de usuario</b></label>
-            <input type="text" placeholder="Ingresa nombre de usuario" name="uname" required>
-            <label><b>Contraseña</b></label>
-            <input type="password" placeholder="Ingresa tu contraseña" name="psw" required>
-            <button class="btn-login" type="submit">Iniciar sesión</button>
-            <input type="checkbox" checked="checked"> Recuérdame
-          </div>
-          <div class="row-container" style="background-color:lightblue">
-            <a href="pw-reset.html" style="color: black"><strong>¿Olvidaste tu contraseña?</strong></a>
-            <button type="button"  onclick="document.getElementById('login_modal').style.display='none'" class="btn-form">x</button>
-          </div>
-        </form>
-      </div>
-    </div> 
   </body>
 </html>

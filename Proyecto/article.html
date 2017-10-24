@@ -2,41 +2,33 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<!--link rel="stylesheet" type="text/css" href="css/proyecto.css"-->
-		<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
-
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
-		
 		<title>Punto Medio | Baby Driver</title>
-
-		<!-- Loading third party fonts -->
-		<link href="http://fonts.googleapis.com/css?family=Roboto:300,400,700|" rel="stylesheet" type="text/css">
+		<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    	<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet" type="text/css">				
 		<link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
-
-		<!-- Loading main css file -->
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-		
-		<!--[if lt IE 9]>
-		<script src="js/ie-support/html5.js"></script>
-		<script src="js/ie-support/respond.js"></script>
-		<![endif]-->
+	    <script type="text/javascript" src="js/script.js"></script>
 	</head>
 	<body class="article-content">
-		<button onclick="topFunction()" id="to-top" title="Ir hasta arriba">Arriba</button>
+		<button onclick="topFunction()" id="button_top" title="Ir hasta arriba">Arriba</button>
 		<header class="mainBar">
 			<h1 id="logo"><a href="index.html">Punto · Medio</a></h1>
 			<nav class="mainMenu">
 				<ul>
-					<li><a href="./section.html">Películas</a></li>
-					<li><a href="section.html">Series</a></li>
-					<li><a href="section.html">Música</a></li>
+					<li><a href="movies.html">Películas</a></li>
+            		<li><a href="shows.html">Series</a></li>
+            		<li><a href="music.html">Música</a></li>
 				</ul>
 			</nav>
-			<ul class="login__register">
-        		<li><a href="#" onclick="document.getElementById('id01').style.display='block'">Iniciar sesión</a></li>
-        		<li><a href="signup.html">Registrarse</a></li>
-        	</ul>
+			<div class="login-register dropdown">
+		        <button class="button" href="account.html">José Carlos
+		          <!--span><img class="user-avatar" src="img/avatar_default.jpg" alt="Avatar Usuario"></span-->
+		        </button>
+		        <div class="dropdown-content">
+		          <a href="account.html">Administrar Cuenta</a>
+		          <a <a href="index.html">Cerrar Sesión</a></li>
+		        </div>
+		    </div>
 		</header>
 		
 		<div class="content">
@@ -85,20 +77,20 @@
 				</div>
 				<div>
 					<textarea class="ta-comment" rows="5"></textarea>
-					<div align="right"><button id="btn-submit">Enviar</button></div>
+					<div align="right"><input type="submit" name="enviar" id="btn-submit"> </input></div>
 					
 				</div>
 				<div>
 					<ul class="comments">
 						<li class="thread-comment">								
 						  	<div class="user-comment"> 						  		
-						  		<a href="javascript:void(0);">
+						  		<a href="#">
 						  			<img src="img/caritafeliz.jpg" width="55" height="55" alt="CaritaFeliz photo avatar">
 						  		</a>
 							    <a class="test" href="javascript:void(0);"> <strong>CaritaFeliz </strong></a> - <span>publicado hace 3 días</span>
 							    <p>Lo cierto es que esta película me pareció de lo mejorcito que ha tenido el género de acción en este año. Con una buena dirección de cámara, fotografía y excelentes tomas (sin contar con el asombroso soundtrack que tiene) la convierten en unas de mis favoritas de este año, sin duda alguna. Sigan así, excelente página!</p>
 							    <div align="right">
-							    	<button class="btn-reply">Contestar</button> 
+							    	<button class="btn-reply">Responder</button> 
 							    </div>
 						  	</div>
 						  	<ul class="children">
@@ -109,7 +101,7 @@
 										<p>La verdad es que sí, pariente. Ésta película me la habían recomendado y cuando vi que eran de carros y balazos dije: "De aquí soy". Para mi sorpresa (y no de la mala) no era otra película como Rápidos y Furiosos 10 sino algo más movido y de buena calidad.</p>
 										<p>Yo se las recomiendo a todos también, si no alcanzaron verla en cines díganme y les paso el link del torrent 720p MEGA 1 link subs español, fierro.</p>
 										<div align="right">
-									    	<button class="btn-reply">Contestar</button> 
+									    	<button class="btn-reply">Responder</button> 
 									    </div>
 							      	</div> 
 						    	</li>
@@ -123,7 +115,7 @@
 							    <a class="test" href="javascript:void(0);"> <strong>EruditoSerial </strong></a> - <span>publicado hace 2 días</span>
 							    <p>Me gustó mucho la película y su reseña, ojalá sigan así con su contenido.</p>
 							    <div align="right">
-							    	<button class="btn-reply">Contestar</button> 
+							    	<button class="btn-reply">Responder</button> 
 							    </div>
 						  	</div>
 						</li>
@@ -135,7 +127,7 @@
 							    <a class="test" href="javascript:void(0);"> <strong>EruditoSerial </strong></a> - <span>publicado hace 2 días</span>
 							    <p>Lo cierto es que esta película me pareció de lo mejorcito que ha tenido el género de acción en este año. Con una buena dirección de cámara, fotografía y excelentes tomas (sin contar con el asombroso soundtrack que tiene) </p>
 							    <div align="right">
-							    	<button class="btn-reply">Contestar</button> 
+							    	<button class="btn-reply">Responder</button> 
 							    </div>
 						  	</div>
 						</li>											
@@ -161,7 +153,7 @@
         </div>
         <p>&copy; 2017 Punto Medio. Todos los derechos reservados.</p>
     </footer> 
-	<div class="modal__btn">          
+	<div class="modal-btn">          
 	  <div id="id01" class="modal">
 	    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
 	    
@@ -178,13 +170,13 @@
 	        <label><b>Contraseña</b></label>
 	        <input type="password" placeholder="Ingresa tu contraseña" name="psw" required>
 
-	        <button class="btn__login" type="submit">Iniciar sesión</button>
+	        <button class="btn-login" type="submit">Iniciar sesión</button>
 	        <input type="checkbox" checked="checked"> Recuérdame
 	      </div>
 
 	      <div class="row-container" style="background-color:lightblue">
-	        <a href="#" style="color: black"><strong>¿Olvidaste tu contraseña?</strong></a>
-	        <button type="button"  onclick="document.getElementById('id01').style.display='none'" class="btn__form">Cancelar</button>
+	        <a href="pw-reset.html" style="color: black"><strong>¿Olvidaste tu contraseña?</strong></a>
+	        <button type="button"  onclick="document.getElementById('id01').style.display='none'" class="btn-form">Cancelar</button>
 	      </div>
 	    </form>
 	  </div>
@@ -192,21 +184,3 @@
 </html>
 
 
-<script>
-// Cuando el usuario baja 20px desde arriba, se muestra el botón
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-    if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
-        document.getElementById("to-top").style.display = "block";
-    } else {
-        document.getElementById("to-top").style.display = "none";
-    }
-}
-
-// Cuando el usuario da click, se va hasta arriba del documento
-function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-}
-</script>

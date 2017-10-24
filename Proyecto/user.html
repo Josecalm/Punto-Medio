@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Administración de cuenta</title>
+    <title>Punto · Medio | Usuario</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet" type="text/css">
@@ -20,37 +20,34 @@
         <h4>Nombre del usuario</h4>
     </header>
     <div id="main-column">
-      <h3 class="accountAdm">Administración de cuenta</h3>
+      <h3 class="accountAdm">Información de Usuario</h3>
       <form class="user-data">
         <div class="form-div">
           <div class="input-container">
             <label for="name">Nombre: </label>
-            <input type="text" name="name" class="input-account">
+            <input type="text" name="name" class="input-account" value="EruditoSerial">
             <label for="last">Apellido: </label>
-            <input  class="input-account" type="text" name="last-name">
+            <input  class="input-account" type="text" name="last-name" value="Lopez">
             <label>E-Mail:</label>
-            <p>e-mail-ejemplo@gmail.com</p>
+            <p>EruditoSerial-lopez@gmail.com</p>
             <label for=<"gender">Sexo: </label>
             <label for="genderChoice1">Masculino</label>
-            <input id="genderChoice1" type="radio" name="gender" value="male">
+            <input id="genderChoice1" type="radio" name="gender" value="male" checked>
             <label for="genderChoice2">Femenino</label>
             <input id="genderChoice2" type="radio" name="gender" value="female">
             <label for="genderChoice3">Indefinido</label>
             <input id="genderChoice3" type="radio" name="gender" value="other">
             <label>Fecha de nacimiento</label>
-            <input class="input-account" type="date">
+            <input class="input-account" type="date" value="27/03/2017">
           </div>
         </div>
         <div class="avatarPic">
           <h5>Foto de perfil</h5>
-          <img id="avatarPic" src="img/avatar_default.jpg" alt="Avatar">
-          <input type="file" name="avatar" id="avatar" class="inputfile">
-          <label id="avatarLabel" for="avatar">Elige una foto</label>
+          <img id="avatarPic" class="crop" src="img/EruditoSerial.jpg" alt="Avatar">
         </div>
       </form>
       <div class="container-inputs">
-        <input class="button red" type="submit" value="Guardar" style="justify-content: space-between">
-        <input class="button red" type="reset" name="" value="Cancelar" style="justify-content: space-between">
+        <button class="button red large" type="submit" onclick="document.getElementById('delete_modal').style.display='block'">Eliminar usuario</button>
       </div>
       
     </div>
@@ -72,4 +69,23 @@
         <p>&copy; 2017 Punto Medio. Todos los derechos reservados.</p>
     </footer> 
   </body>
+  <div id="delete_modal" class="modal">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      
+      <!-- Contenido del modal -->
+      <form class="modal-content animate">
+        <div class="row">
+          <img class="crop" src='img/EruditoSerial.jpg' alt="EruditoSerial">            
+          <h4>
+            <a href="article.html" class="tile-header">EruditoSerial</a>
+          </h4>
+        </div>
+        <label><b>¿Estás seguro de eliminar a este usuario?</b></label>
+        <div class="row">
+          <button class="button" type="submit">Cancelar</button>
+          <button class="button red" type="submit">Sí, eliminar</button>
+        </div>
+      </form>
+    </div>
+  </div> <!-- btn modal-->
 </html>

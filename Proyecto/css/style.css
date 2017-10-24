@@ -18,7 +18,20 @@ h1 {
 }
 
 h2 {
-  color: white;
+  color: #000;
+  text-align: center;
+}
+
+#section-title {
+  text-align: left;
+  margin-left: 10%;
+  border-bottom: 2px solid lightgray;
+}
+
+#post-title {
+  text-align: left;
+  border-bottom: 2px solid lightgray;
+  margin-bottom: 5%;
 }
 
 /* Títulos medianos */
@@ -88,21 +101,60 @@ aside {
   margin-top: 80px;
 }
 
+h4 a{
+  margin: 0px;
+}
+
 .mainBar {
   display: flex;
   justify-content: space-between;
   position: fixed;
   width: 100%;
-  height: 11%;
+  height: 73px;
   top: 0px;
   z-index: +1;
   background-color: rgba(0, 0, 0, 0.9);
 }
 
+
+.search-bar{
+  padding: 10px 5px;
+  height: 17px;
+  width: 250px;
+  margin: 15px 0;
+  font-size: 14px;
+  border: 0px;
+}
+
+.search-button{
+  margin: 15px 0;
+  height: 38px;
+  background: #414141;
+  color: #fff;
+  cursor: pointer;
+  border: 0px;
+}
+
 #logo {
   font-family: "Lora";
-  color: white;
   margin-left: 30px;
+
+}
+
+.movies {
+  background-color: rgba(131, 16, 16, 0.9);
+}
+
+.shows {
+  background-color: rgba(239, 127, 26, 0.9);
+}
+
+.music {
+  background-color: rgba(30, 215, 96, 0.9);
+}
+
+.darkgray {
+  background-color: darkgray;
 }
 
 .footerInfo {
@@ -110,7 +162,72 @@ aside {
   justify-content: center;
 }
 
-.form__register {/* SIGNUP: Inicia-----------------------------------------------------------------------*/
+.tile-header{
+  color: black;
+}
+
+.tile-info{
+  margin-top: -140px;
+  margin-left: 165px;
+}
+
+.tile-text{
+  font-size: .8em;
+  /*float: left; */
+}
+
+.tile-border{
+  border-bottom: 2px solid #414141;
+}
+
+.post-form{
+  margin: 10% 12% 10% 10%;
+}
+
+.button {
+  border-radius: 7px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 7px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  height: 50px;
+  width: 100px;
+}
+
+.button:hover{
+  background-color: #1B5E20;
+}
+
+#new_post {
+  margin-left: 40px;
+  margin-bottom: 5px;
+  padding: 1px;
+  height: 35px;
+  width: 80px;
+}
+
+.admin-div{
+  margin-top: 73px;
+  text-align: center;
+  justify-content: space-between;
+  padding: 10%;
+}
+
+.posts {
+  margin-top: 10%;
+
+}
+
+.more-posts-btn{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 70%;
+}
+
+.form-register {/* SIGNUP: Inicia-----------------------------------------------------------------------*/
   width: 98%;
   max-width: 500px;
   margin-left: 440px;
@@ -120,7 +237,19 @@ aside {
   border-style: solid;
 }
 
-.form__titulo {
+.form-reset {
+  width: 98%;
+  max-width: 500px;
+  margin-left: 440px;
+  margin-top: 80px;
+  background: white;
+  border-radius: 7px;
+  border-style: solid;
+  margin-top: 10%;
+  margin-bottom: 12%;
+}
+
+.form-titulo {
   margin-top: 0px;
   margin-bottom: 0px;
   background: black;
@@ -136,7 +265,7 @@ aside {
   border-bottom: 5px solid crimson;
 }
 
-.container__inputs {
+.container-inputs {
   padding: 10px 30px;
   display: flex;
   flex-wrap: wrap;
@@ -151,6 +280,17 @@ input {
   border: 1px solid darkgray;
 }
 
+.input-placeholder {
+  margin-bottom: 15px;
+  padding: 15px;
+  font-size: 16px;
+  border-radius: 3px;
+  border: 1px solid darkgray;
+  color: white;
+  width: 250px;
+  height: px;
+}
+
 .input-42 {
   width: 42%;
 }
@@ -159,7 +299,7 @@ input {
   width: 100%;
 }
 
-.btn__form {
+.btn-form {
   background: #dc143c;
   color: #fff;
   margin: auto;
@@ -169,14 +309,14 @@ input {
   border: 0px;
 }
 
-.form__link {
+.form-link {
   width: 100%;
   font-size: 12px;
 }
 
 /* MODAL */
  /* Background del modal */
-.modal {
+.modal {    
     display: none;
     position: absolute;
     z-index: 0;
@@ -185,9 +325,18 @@ input {
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0,0,0,.9);
     padding-top: 60px;
+    text-align: center;
+    padding-top: 15%;
+}
+
+#delete_modal{
+  padding-top: 15%;
+}
+
+#success-modal{
+  padding-top: 15%;
 }
 
 /* Modal Content/Box */
@@ -196,6 +345,7 @@ input {
     margin: 5px auto;
     border: 1px solid #888;
     width: 80%;
+    padding: 20px;
 }
 
 /* Botón de cerrar */
@@ -231,13 +381,13 @@ input {
     to {transform: scale(1)}
 } 
 
-.row__aregister{
+.row-aregister{
   margin-bottom: 5px;
   margin-top: 10px;
   text-align:  center;
 }
 
-.btn__login{
+.btn-login{
   padding: 2px;
   background: #1dafac;
   color: #fff;
@@ -248,11 +398,11 @@ input {
   border: 0px;
 }
 
-.btn__login:hover{
+.btn-login:hover{
   background: #176c6b;
 }
 
-.btn__form:hover{
+.btn-form:hover{
   background-color: #B71C1C;
 }/* SIGNUP: Termina**********************************************************************************/
 
@@ -279,8 +429,9 @@ input {
 }
 
 #avatarPic {
-  margin-left: 190px;
+  margin-left: 59%;
 }
+
 
 .inputfile {
   width: 0.1px;
@@ -302,7 +453,7 @@ input {
 
 .inputfile:focus + label,
 .inputfile + label:hover {
-    background-color: red;
+    background-color: gray;
 }
 
 #avatarLabel {
@@ -328,7 +479,7 @@ input {
   border-bottom: 5px solid crimson;
 }
 
-.input__container {
+.input-container {
   padding: 20px;
 }
 
@@ -336,7 +487,7 @@ input {
   margin-left: -100px;
 }
 
-.input__account{
+.input-account{
   margin-bottom: 5px;
   padding: 3px;
   font-size: 15px;
@@ -402,24 +553,6 @@ input {
     margin: 180px 0 40px 0;
 }
 
-#to-top {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 30px;
-  z-index: 99;
-  border: none;
-  outline: none;
-  background-color: green;
-  color: white;
-  cursor: pointer;
-  padding: 15px;
-  border-radius: 10px;
-}
-
-#to-top:hover {
-  background-color: #555;
-}
 
 /*INCIA: Estilo para los comentarios*/
 .comments{
@@ -483,8 +616,9 @@ input {
 
 /*TERMINA: Estilo para los comentarios*/
 
-.login__register {
-  margin-top: 5px;
+.login-register {
+  padding: 5px;
+  margin-top: 7px;
   color: white;
 }/* ARTICLE: Termina**********************************************************************************/
 
@@ -497,26 +631,97 @@ input {
   margin: 0 auto;
 }
 
+#morePosts {
+  margin-top: -700px;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 20%;
+  margin: 0 auto;
+  display: none;
+}
+
+#button_top {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+#button_top:hover {
+  background-color:  darkgreen;
+}
+
+
+.row {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
 .tile {
-  display: inline-block;
-  width:23%;
-  height:200px;
+  display: inline;
+  height:180px;
   margin:10px;
-  padding:0.5%;
   flex-grow: 1;
   width: calc(100% * (1/4) - 10px - 1px);
 }
 
+.tile--admin{
+  display: flex;
+  height:180px;
+  margin:10px;
+  width: 100%;
+  flex-grow: 1;
+  border-bottom: 2px solid #414141;
+}
+
+.tile-data{
+  width: 80%;
+  display: block;
+}
+
+.tile--admin-btns{
+  margin: 30px 50px 100px 50px;
+  width: 20%;
+  text-align: center;
+}
+
 .green {
-  background:#66dd99;
+  background:#4caf50;
 }
 
 .blue {
-  background:#1dafac;
+  background:#2196f3;
+}
+
+.blue:hover {
+  background:#0d47a1;
+}
+
+.yellow {
+  background: #ffc107;
+}
+
+.yellow:hover {
+  background: #f57f17;
 }
 
 .red {
-  background:#ff4466;
+  background:#f44336;
+}
+
+.red:hover {
+  background: #b71C1c; 
 }
 
 .blue-fb {
@@ -525,6 +730,10 @@ input {
 
 .blue-fb:hover {
   background:#35528e;
+}
+
+.large  {
+  width: 100%;
 }
 
 
@@ -576,23 +785,92 @@ main {
   overflow: hidden;
 }
 
-.iconDetails {
-  margin-left:2%;
-  margin-top: 10%;
-  float:left; 
-  height:100%;
-  width:100%; 
-  scale
-} 
-
 .crop {
-    width: 150px;
-    height: 150px;
-    overflow: hidden;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
 }
 
 .crop img {
-    width: 200px;
-    height: 150px;
-    margin: 20% 0 0 10%;
+  width: 90%;
+  height: 90%;
+  margin: 10% 0 0 10%;
 } /* INDEX: Termina**********************************************************************************/
+
+
+.dropdown {
+    border-radius: 7px;
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    border-radius: 7px;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 0;
+}
+
+.dropdown-content a {
+    border-radius: 7px;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+} /* DROPDOWN: Ends ********************************************************************************************/
+
+
+/* USERS: Starts --------------------------------------------------------------------------------*/
+
+.users{
+  margin: 10% 20% 20% 20%;
+  box-sizing: border-box;
+}
+
+#input-username {
+  background-image: url('');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#userUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#userUL li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block
+}
+
+#userUL li a:hover:not(.header) {
+  background-color: #eee;
+}
+
+/*USERS: Ends ************************************************************************************/
