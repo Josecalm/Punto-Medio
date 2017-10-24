@@ -32,15 +32,17 @@
       </div>
     </header>
     <div class="post-form">
-      <form>
+      <form action="admin-index.html">
         <h2 id="post-title">Contenido Principal</h2>
         <strong>Título de cabecera:</strong><br>
-        <input class="input-42" type="text" name="title"><br> <br>
+        <input class="input-42" type="text" name="title" required><br> <br>
         <strong>Enlace de imagen de cabecera:</strong><br>
-        <input class="input-42" type="text" name="image"><br> <br>
+        <input class="input-42" type="text" name="image" required><br> <br>
         <strong>Contenido:</strong><br>
-        <textarea name="content" rows="10" cols="100%"></textarea> <br> <br>
+        <textarea name="content" rows="10" cols="100%" required></textarea> <br> <br>
+        <button class="button blue large" type="submit" id="submit-post">Enviar</button>
       </form>
+      
     </div>
     <footer>
       <div class="footerInfo">
