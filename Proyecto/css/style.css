@@ -220,10 +220,11 @@ h4 a{
 
 }
 
-.more-posts{
+.more-posts-btn{
   text-align: center;
   margin-top: 10px;
   margin-bottom: 20px;
+  width: 70%;
 }
 
 .form-register {/* SIGNUP: Inicia-----------------------------------------------------------------------*/
@@ -628,7 +629,7 @@ input {
 #morePosts {
   margin-top: -700px;
   flex-wrap: wrap;
-  width: 80%;
+  width: 100%;
   height: 20%;
   margin: 0 auto;
   display: none;
@@ -724,6 +725,10 @@ input {
 
 .blue-fb:hover {
   background:#35528e;
+}
+
+.large  {
+  width: 100%;
 }
 
 
