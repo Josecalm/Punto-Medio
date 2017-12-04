@@ -1,188 +1,308 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/fontello.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Punto · Medio</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
-    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet" type="text/css">
-    <script type="text/javascript" src="js/script.js"></script>
-  </head>
-  <body>
-    <header class="mainBar">
-      <h1 id="logo"><a href="index.html">Punto · Medio</a></h1>
-      <nav class="mainMenu">
-        <ul>
-            <li><a href="movies.html">Películas</a></li>
-            <li><a href="shows.html">Series</a></li>
-            <li><a href="music.html">Música</a></li>
-        </ul>
-      </nav>
-      <form action="search-results.html" method="POST">
-        <input class="search-bar" type="text" name="searchBar" placeholder="Búsqueda">
-        <button class="search-button"><i class="fa fa-search fa-lg"></i></button>
-      </form>
-      <div class="login-register dropdown">
-        <button class="button" href="#" onclick="document.getElementById('login_modal').style.display='block'">Cuenta</button>
-        <div class="dropdown-content">
-          <a href="#" onclick="document.getElementById('login_modal').style.display='block'">Iniciar sesión</a>
-          <a <a href="signup.html">Registrarse</a></li>
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 id="logo"><a href="index.html">Punto · Medio</a></h1> 
+            <input type="checkbox" id="menu-bar">
+            <label class="icon-menu" for="menu-bar"></label>            
+            <nav class="menu">
+                <!--ul>
+                    <li><a href="movies.html">Películas</a></li>
+                    <li><a href="shows.html">Series</a></li>
+                    <li><a href="music.html">Música</a></li>
+                </ul-->
+                <a href="movies.html">Películas</a>
+                <a href="sbows.html">Series</a>
+                <a href="music.html">Música</a>
+                <a href=""></a>
+                <a href="signup.html">Registrarme</a>
+                <a href="login.html">Entrar</a>                  
+            </nav>
         </div>
-      </div>
     </header>
-    <main>
-      <figure class="slider">
-        <figure>
-          <img src="https://news.newonnetflix.info/wp-content/uploads/2017/03/master-of-none.jpg" alt="Imagen Master Of None">
-          <figcaption><a href="article.html" class="story">Master of None: Aziz Ansari regresa a Netflix con su 2da. temporada.</a></figcaption>
-        </figure>
-        <figure>
-          <img src="https://in.bookmyshow.com/entertainment/wp-content/uploads/2017/06/Baby-Driver-Poster.jpg" alt="Imagen Baby Driver">
-          <figcaption><a href="article.html" class="story">Baby Driver: Edgar Wright se enfoca más en la acción en su nueva película.</a></figcaption>
-        </figure>
-        <figure>
-          <img src="http://www.rockalternativo.cl/home/wp-content/uploads/2017/08/qo.jpg" alt="Imagen QOTSA">
-          <figcaption><a href="article.html" class="story">Villains: Josh Homme se reúne con Mark Ronson en el nuevo álbum de QOTSA.</a></figcaption>
-        </figure>
-        <figure>
-          <img src="https://news.newonnetflix.info/wp-content/uploads/2017/03/master-of-none.jpg" alt="Imagen Master Of None">
-          <figcaption><a href="article.html">Master of None: Aziz Ansari regresa a Netflix con su 2da. temporada.</a></figcaption>
-        </figure>
-      </figure>
-    </main>
-    <aside>
-      <h2 id="section-title">Lo nuevo esta semana</h2>
-      <div class="container"> 
-        <div class="tile tile-border">
-          <div class="crop">
-            <img src='http://moviemom.maxlazebnik.com/wp-content/uploads/2017/06/baby-driver.jpg' alt="Ícono Baby Driver" class='iconDetails'>
-          </div>  
-          <div class="tile-info">
-            <p class="tile-text">Películas</p>
-            <h4><a href="article.html" class="tile-header">Baby Driver: Cuando el soundtrack guía la película</a></h4>
-            <p class="tile-text">Reseña por: Lalo Pérez</p>
-          </div>
-        </div>
-        <div class="tile tile-border">
-          <div class="crop">
-            <img src='https://images.duckduckgo.com/iu/?u=https%3A%2F%2Fburgerandhoochdotcom.files.wordpress.com%2F2017%2F07%2Flarry-david-curb-your-enthusiasm-season-9.jpg%3Fw%3D676%26h%3D1001&f=1' alt="Ícono CYE" class='iconDetails'>
-          </div>  
-          <div class="tile-info">
-            <p class="tile-text">Series de TV</p>
-            <h4><a href="article.html" class="tile-header">Curb Your Enthusiasm: Larry David regresa luego de casi 10 años</a></h4>
-            <p class="tile-text">Reseña por: Ángel Esqueda</p>
-          </div>
-        </div>
-        <div class="tile tile-border">
-          <div class="crop">
-            <img src='https://is5-ssl.mzstatic.com/image/thumb/Music118/v4/3e/46/04/3e460479-f504-2615-32be-30f83df76811/190295758974.jpg/268x0w.jpg' alt="Ícono Salvavidas de Hielo" class='iconDetails'>
-          </div>  
-          <div class="tile-info">
-            <p class="tile-text">Música</p>
-            <h4><a href="article.html" class="tile-header">Salvavidas de Hielo: El nuevo álbum de Jorge Drexler</a></h4>
-            <p class="tile-text">Reseña por: José C. López</p>
-          </div>
-        </div>
-        <div class="tile tile-border">
-          <div class="crop">
-            <img src='http://moviemom.maxlazebnik.com/wp-content/uploads/2017/06/baby-driver.jpg' alt="Ícono Baby Driver" class='iconDetails'>
-          </div>  
-          <div class="tile-info">
-            <p class="tile-text">Películas</p>
-            <h4><a href="article.html" class="tile-header">Baby Driver: Cuando el soundtrack guía la película</a></h4>
-            <p class="tile-text">Reseña por: Lalo Pérez</p>
-          </div>
-        </div>
-        <div class="tile tile-border">
-          <div class="crop">
-            <img src='https://images.duckduckgo.com/iu/?u=https%3A%2F%2Fburgerandhoochdotcom.files.wordpress.com%2F2017%2F07%2Flarry-david-curb-your-enthusiasm-season-9.jpg%3Fw%3D676%26h%3D1001&f=1' alt="Ícono CYE" class='iconDetails'>
-          </div>  
-          <div class="tile-info">
-            <p class="tile-text">Series de TV</p>
-            <h4><a href="article.html" class="tile-header">Curb Your Enthusiasm: Larry David regresa luego de casi 10 años</a></h4>
-            <p class="tile-text">Reseña por: Ángel Esqueda</p>
-          </div>
-        </div>
-        <div class="tile tile-border">
-          <div class="crop">
-            <img src='https://is5-ssl.mzstatic.com/image/thumb/Music118/v4/3e/46/04/3e460479-f504-2615-32be-30f83df76811/190295758974.jpg/268x0w.jpg' alt="Ícono Salvavidas de Hielo" class='iconDetails'>
-          </div>  
-          <div class="tile-info">
-            <p class="tile-text">Música</p>
-            <h4><a href="article.html" class="tile-header">Salvavidas de Hielo: El nuevo álbum de Jorge Drexler</a></h4>
-            <p class="tile-text">Reseña por: José C. López</p>
-          </div>
-        </div>
-      </div>
-    </aside>
-    <aside>
-      <h2 id="section-title">Recomendado para ti</h2>
-      <div class="container"> 
-        <div class="tile tile-border">
-          <div class="crop">
-            <img src='https://estaticos.muyinteresante.es/uploads/images/gallery/59cb804b5bafe8d539f9cf2c/tumblr-static-26osk19e9qck84sgcwogsw88w_0.jpg' alt="Ícono Blade Runner" class='iconDetails'>
-          </div>  
-          <div class="tile-info">
-            <p class="tile-text">Películas</p>
-            <h4><a href="article.html" class="tile-header">Blade Runner 2049</a></h4>
-            <p class="tile-text">Por tu interés en: Ciencia Ficción</p>
-          </div>
-        </div>
-        <div class="tile tile-border">
-          <div class="crop">
-            <img src='http://stuffpoint.com/the-office/image/80424-the-office-the-office-poster.jpg' alt="Ícono The Office US" class='iconDetails'>
-          </div>  
-          <div class="tile-info">
-            <p class="tile-text">Series de TV</p>
-            <h4><a href="article.html" class="tile-header">The Office (US)</a></h4>
-            <p class="tile-text">Por tu interés en: Comedia</p>
-          </div>
-        </div>
-        <div class="tile tile-border">
-          <div class="crop">
-            <img src='https://resources.tidal.com/images/7c298a27/caec/4058/9a7b/5f34cfd2c857/1280x1280.jpg' alt="Ícono 4:44" class='iconDetails'>
-          </div>  
-          <div class="tile-info">
-            <p class="tile-text">Música</p>
-            <h4><a href="article.html" class="tile-header">JAY-Z: 4:44</a></h4>
-            <p class="tile-text">Por tu interés en: Rap</p>
-          </div>
-        </div>
-        <div class="tile">
-          <div class="crop">
-            <img src='https://estaticos.muyinteresante.es/uploads/images/gallery/59cb804b5bafe8d539f9cf2c/tumblr-static-26osk19e9qck84sgcwogsw88w_0.jpg' alt="Ícono Blade Runner" class='iconDetails'>
-          </div>  
-          <div class="tile-info">
-            <p class="tile-text">Películas</p>
-            <h4><a href="article.html" class="tile-header">Blade Runner 2049</a></h4>
-            <p class="tile-text">Por tu interés en: Ciencia Ficción</p>
-          </div>
-        </div>
-        <div class="tile">
-          <div class="crop">
-            <img src='http://stuffpoint.com/the-office/image/80424-the-office-the-office-poster.jpg' alt="Ícono The Office US" class='iconDetails'>
-          </div>  
-          <div class="tile-info">
-            <p class="tile-text">Series de TV</p>
-            <h4><a href="article.html" class="tile-header">The Office (US)</a></h4>
-            <p class="tile-text">Por tu interés en: Comedia</p>
-          </div>
-        </div>
-        <div class="tile">
-          <div class="crop">
-            <img src='https://resources.tidal.com/images/7c298a27/caec/4058/9a7b/5f34cfd2c857/1280x1280.jpg' alt="Ícono 4:44" class='iconDetails'>
-          </div>  
-          <div class="tile-info">
-            <p class="tile-text">Música</p>
-            <h4><a href="article.html" class="tile-header">JAY-Z: 4:44</a></h4>
-            <p class="tile-text">Por tu interés en: Rap</p>
-          </div>
-        </div>
-      </div>
-    </aside>
+    
+    <section id="container-slider" class="container-slider">
+            <div id="slider" class="slider">
+                <div class="slider__section">
+                   <a href="hdssd.html"></a>
+                    <div class="tile-info">
+                        <h3>Jejejeje</h3>
+                        <p>Esta dfdfperrona alv pfddfdfdfddfdfdfddfdfdfero no se muestra</p>
+                    </div>               
+                    
+                    <img src="img/imagen1.jpg" class="slider__img"></img>
+                </div>
+                <div class="slider__section"><img src="img/imagen2.jpg" class="slider__img"></div>
+                <div class="slider__section"><img src="img/imagen3.jpg" class="slider__img"></div>
+                <div class="slider__section"><img src="img/imagen4.jpg" class="slider__img"></div>
+            </div>
+            <div id="btn-prev" class="btn-prev">&#60;</div>
+            <div id="btn-next" class="btn-next">&#62;</div>
+    </section>
+              
+    <script src="js/slider.js"></script>
+    
+    <section class="main-content">
+        <h2>Lo más nuevo de la semana</h2>
+		<ul class="grid">
+			<li>
+				<div class="box">
+					<a href="j.html">
+					<div class="tile-info">
+						<h3>Baby Driver:</h3>
+						<p>En esta parte va un subtítulo correspondiente a lo que se verá.</p>
+						<h4 class="type-review">Reseña</h4>
+					</div></a>
+					<img src="img/im1.jpg" class="slider__img"></img>
+				</div>
+			</li>
+			<li>
+				<div class="box">
+					<a href="j.html">
+					<div class="tile-info">
+						<h3>Gorillaz:</h3>
+						<p>En esta parte va un subtítulo correspondiente a lo que se verá.</p>
+						<h4 class="type-article">Articulo</h4>
+					</div></a>
+					<img src="img/imagen1.jpg" class="slider__img"></img>
+				</div>
+			</li>
+			<li>
+				<div class="box">
+					<a href="j.html">
+					<div class="tile-info">
+						<h3>Baby Driver:</h3>
+						<p>En esta parte va un subtítulo correspondiente a lo que se verá.</p>
+						<h4 class="type-review">Reseña</h4>
+					</div></a>
+					<img src="img/im1.jpg" class="slider__img"></img>
+				</div>
+			</li>
+			<li>
+				<div class="box">
+					<a href="j.html">
+					<div class="tile-info">
+						<h3>Gorillaz:</h3>
+						<p>En esta parte va un subtítulo correspondiente a lo que se verá.</p>
+						<h4 class="type-article">Articulo</h4>
+					</div></a>
+					<img src="img/imagen1.jpg" class="slider__img"></img>
+				</div>
+			</li>
+			<li>
+				<div class="box">
+					<a href="j.html">
+					<div class="tile-info">
+						<h3>Baby Driver:</h3>
+						<p>En esta parte va un subtítulo correspondiente a lo que se verá.</p>
+						<h4 class="type-review">Reseña</h4>
+					</div></a>
+					<img src="img/im1.jpg" class="slider__img"></img>
+				</div>
+			</li>
+			<li>
+				<div class="box">
+					<a href="j.html">
+					<div class="tile-info">
+						<h3>Gorillaz:</h3>
+						<p>En esta parte va un subtítulo correspondiente a lo que se verá.</p>
+						<h4 class="type-article">Articulo</h4>
+					</div></a>
+					<img src="img/imagen1.jpg" class="slider__img"></img>
+				</div>
+			</li>
+			<li>
+				<div class="box">
+					<a href="j.html">
+					<div class="tile-info">
+						<h3>Baby Driver:</h3>
+						<p>En esta parte va un subtítulo correspondiente a lo que se verá.</p>
+						<h4 class="type-review">Reseña</h4>
+					</div></a>
+					<img src="img/im1.jpg" class="slider__img"></img>
+				</div>
+			</li>
+			<li>
+				<div class="box">
+					<a href="j.html">
+					<div class="tile-info">
+						<h3>Gorillaz:</h3>
+						<p>En esta parte va un subtítulo correspondiente a lo que se verá.</p>
+						<h4 class="type-article">Articulo</h4>
+					</div></a>
+					<img src="img/imagen1.jpg" class="slider__img"></img>
+				</div>
+			</li>
+			<li>
+				<div class="box">
+					<a href="j.html">
+					<div class="tile-info">
+						<h3>Baby Driver:</h3>
+						<p>En esta parte va un subtítulo correspondiente a lo que se verá.</p>
+						<h4 class="type-review">Reseña</h4>
+					</div></a>
+					<img src="img/im1.jpg" class="slider__img"></img>
+				</div>
+			</li>
+			<li>
+				<div class="box">
+					<a href="j.html">
+					<div class="tile-info">
+						<h3>Gorillaz:</h3>
+						<p>En esta parte va un subtítulo correspondiente a lo que se verá.</p>
+						<h4 class="type-article">Articulo</h4>
+					</div></a>
+					<img src="img/imagen1.jpg" class="slider__img"></img>
+				</div>
+			</li>
+			<li>
+				<div class="box">
+					<a href="j.html">
+					<div class="tile-info">
+						<h3>Baby Driver:</h3>
+						<p>En esta parte va un subtítulo correspondiente a lo que se verá.</p>
+						<h4 class="type-review">Reseña</h4>
+					</div></a>
+					<img src="img/im1.jpg" class="slider__img"></img>
+				</div>
+			</li>
+			<li>
+				<div class="box">
+					<a href="j.html">
+					<div class="tile-info">
+						<h3>Gorillaz:</h3>
+						<p>En esta parte va un subtítulo correspondiente a lo que se verá.</p>
+						<h4 class="type-article">Articulo</h4>
+					</div></a>
+					<img src="img/imagen1.jpg" class="slider__img"></img>
+				</div>
+			</li>
+<li>
+				<div class="box">
+					<a href="j.html">
+					<div class="tile-info">
+						<h3>Baby Driver:</h3>
+						<p>En esta parte va un subtítulo correspondiente a lo que se verá.</p>
+						<h4 class="type-review">Reseña</h4>
+					</div></a>
+					<img src="img/im1.jpg" class="slider__img"></img>
+				</div>
+			</li>
+			<li>
+				<div class="box">
+					<a href="j.html">
+					<div class="tile-info">
+						<h3>Gorillaz:</h3>
+						<p>En esta parte va un subtítulo correspondiente a lo que se verá.</p>
+						<h4 class="type-article">Articulo</h4>
+					</div></a>
+					<img src="img/imagen1.jpg" class="slider__img"></img>
+				</div>
+			</li>
+<li>
+				<div class="box">
+					<a href="j.html">
+					<div class="tile-info">
+						<h3>Baby Driver:</h3>
+						<p>En esta parte va un subtítulo correspondiente a lo que se verá.</p>
+						<h4 class="type-review">Reseña</h4>
+					</div></a>
+					<img src="img/im1.jpg" class="slider__img"></img>
+				</div>
+			</li>
+			<li>
+				<div class="box">
+					<a href="j.html">
+					<div class="tile-info">
+						<h3>Gorillaz:</h3>
+						<p>En esta parte va un subtítulo correspondiente a lo que se verá.</p>
+						<h4 class="type-article">Articulo</h4>
+					</div></a>
+					<img src="img/imagen1.jpg" class="slider__img"></img>
+				</div>
+			</li>
+<li>
+				<div class="box">
+					<a href="j.html">
+					<div class="tile-info">
+						<h3>Baby Driver:</h3>
+						<p>En esta parte va un subtítulo correspondiente a lo que se verá.</p>
+						<h4 class="type-review">Reseña</h4>
+					</div></a>
+					<img src="img/im1.jpg" class="slider__img"></img>
+				</div>
+			</li>
+			<li>
+				<div class="box">
+					<a href="j.html">
+					<div class="tile-info">
+						<h3>Gorillaz:</h3>
+						<p>En esta parte va un subtítulo correspondiente a lo que se verá.</p>
+						<h4 class="type-article">Articulo</h4>
+					</div></a>
+					<img src="img/imagen1.jpg" class="slider__img"></img>
+				</div>
+			</li>
+			<li>
+				<div class="box">
+					<a href="j.html">
+					<div class="tile-info">
+						<h3>Baby Driver:</h3>
+						<p>En esta parte va un subtítulo correspondiente a lo que se verá.</p>
+						<h4 class="type-review">Reseña</h4>
+					</div></a>
+					<img src="img/im1.jpg" class="slider__img"></img>
+				</div>
+			</li>
+			<li>
+				<div class="box">
+					<a href="j.html">
+					<div class="tile-info">
+						<h3>Gorillaz:</h3>
+						<p>En esta parte va un subtítulo correspondiente a lo que se verá.</p>
+						<h4 class="type-article">Articulo</h4>
+					</div></a>
+					<img src="img/imagen1.jpg" class="slider__img"></img>
+				</div>
+			</li>
+<li>
+				<div class="box">
+					<a href="j.html">
+					<div class="tile-info">
+						<h3>Baby Driver:</h3>
+						<p>En esta parte va un subtítulo correspondiente a lo que se verá.</p>
+						<h4 class="type-review">Reseña</h4>
+					</div></a>
+					<img src="img/im1.jpg" class="slider__img"></img>
+				</div>
+			</li>
+			<li>
+				<div class="box">
+					<a href="j.html">
+					<div class="tile-info">
+						<h3>Gorillaz:</h3>
+						<p>En esta parte va un subtítulo correspondiente a lo que se verá.</p>
+						<h4 class="type-article">Articulo</h4>
+					</div></a>
+					<img src="img/imagen1.jpg" class="slider__img"></img>
+				</div>
+			</li>
+
+    
+		</ul>
+	</section>
     <footer>
-      <div class="footerInfo">
+       <div>
         <ol>
           <li><h4>Síguenos</h4></li>
           <li><a href="https://twitter.com">Twitter</a></li>
@@ -193,32 +313,15 @@
           <li><h4>Información</h4></li>
           <li><a href="site-info.html">Quiénes somos</a></li>
           <li><a href="writers.html">Editores</a></li>
-        </ol>
-      </div>
-      <p>&copy; 2017 Punto Medio. Todos los derechos reservados.</p>
+        </ol>   
+       </div>
+        <div>
+                  <p>&copy; 2017 Punto Medio. Todos los derechos reservados.</p>
+
+        </div>
     </footer> 
     <button onclick="topFunction()" id="button_top" title="Ir hasta arriba">Arriba</button>
-    <div class="modal-btn">          
-      <div id="login_modal" class="modal">
-        <span onclick="document.getElementById('login_modal').style.display='none'" class="close" title="Close Modal">&times;</span>
-        <form class="modal-content animate" action="user-index.html">
-          <div class="imgcontainer">
-            <img src="img/avatar_default.jpg" alt="Avatar" class="avatar">
-          </div>
-          <div class="row-container">
-            <label><b>Nombre de usuario</b></label>
-            <input type="text" placeholder="Ingresa nombre de usuario" name="uname" required>
-            <label><b>Contraseña</b></label>
-            <input type="password" placeholder="Ingresa tu contraseña" name="psw" required>
-            <button class="btn-login" type="submit">Iniciar sesión</button>
-            <input type="checkbox" checked="checked"> Recuérdame
-          </div>
-          <div class="row-container" style="background-color:lightblue">
-            <a href="pw-reset.html" style="color: black"><strong>¿Olvidaste tu contraseña?</strong></a>
-            <button type="button"  onclick="document.getElementById('login_modal').style.display='none'" class="btn-form">x</button>
-          </div>
-        </form>
-      </div>
-    </div> 
-  </body>
+    <script src="js/upper.js"></script>
+</body>
+
 </html>
