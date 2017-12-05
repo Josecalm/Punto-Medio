@@ -33,7 +33,10 @@ header{
     left: 0;
     z-index: 100;
     color: #fff;    
-    
+}
+
+.movies {
+ background-color: rgba(211, 47, 47, 0.9);
 }
 
 header ul li{
@@ -64,7 +67,7 @@ footer{
 }
 
 footer p {
-    padding: 20px;
+    padding: 20px 0 0 0;
 }
 
 

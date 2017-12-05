@@ -16,10 +16,12 @@ header label{
     height: 100vh;
     top: 50px;
     left: 0px;
-    background-color: rgba(0,0,0,0.9);
+    background-color: rgba(0,0,0,.9);
     transition: all .4s;
     transform: translateX(100%);
 }
+
+
 
 .menu a{
     display: block;
@@ -43,7 +45,7 @@ header label{
         transform: translateX(0%);
         float: right;
         display: flex;
-        background-color: rgba(0,0,0,0);
+        background-color: rgba(0,0,0,0.9);
         text-align: center;
     }    
     
@@ -56,10 +58,12 @@ header label{
     }
 }
 
-
 .menu ul li:nth-child(1) a:hover{background: #D32F2F;}
 .menu ul li:nth-child(2) a:hover{background: #FF9800;}
 .menu ul li:nth-child(3) a:hover{background: #00C853;}
 
 
-.menu a:hover{background: #D32F2F}
+.menu a:hover{
+    background: white;
+    color: lightslategray;
+}

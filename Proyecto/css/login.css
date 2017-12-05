@@ -64,7 +64,7 @@ body h1 #login{
     position: absolute;
     transform: translateX(50%);
     right: 50%;
-    top: 80px;
+    top: 15%;
     font-size: 50px;
     color: black;
     text-decoration: none;
