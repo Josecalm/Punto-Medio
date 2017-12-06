@@ -1,4 +1,5 @@
 h6 { /*Header para article e index h3*/
+  padding: 200px 0;
   font-weight: 300;
   color: white;
   font-size: 55px;
@@ -8,7 +9,7 @@ h6 { /*Header para article e index h3*/
 }
 
 .content {/* ARTICLE: Inicia-----------------------------------------------------------------------*/
-  margin: 73px 0px 0px 0px;
+  margin: 50px 0px 0px 0px;
   background-color: #F5F5F5;
   border-color: black;
 }
@@ -21,24 +22,86 @@ h6 { /*Header para article e index h3*/
   padding: 1% 11%;
 }
 
-.story:hover{
-    text-decoration: underline;
+.breadcrumbs a {
+    color: white;
 }
 
 .story-content{
   padding: 40px;
   background-color: white;
-  width:60%;
+  width:90%;
+  margin: 2% 5%;
   text-align: left;
-  margin: 2% 20% 0% 10%;
-  border-radius: 15px;
-  /*border:  1px solid gray;*/
+  border-radius: 5px;
+    text-align: justify
 }
 
-.figcaption{
+@media(min-width:480px){   
+  .story-content{
+      padding: 40px;
+      background-color: white;
+      width:80%;
+      margin: 2% 5%;
+      text-align: left;
+      border-radius: 5px;
+  }
+    .story-content iframe {        
+        
+    }
+}
+
+@media(min-width:1080px){    
+  .story-content{
+      padding: 40px;
+      background-color: white;
+      width:60%;
+      margin: 2% 5%;
+      text-align: left;
+      border-radius: 5px;
+      margin-left: 200px;
+  }
+
+.story-content figure {
+    width: 130%;
+    margin: 5% 0% 5% 0%;
+    
+}
+}
+
+.story-content ul li {
+    list-style-type: none;
+}
+
+.story-content .figcaption{
   color: #424242;
   font-size: 12px;
+  margin: 1% 5% 2% 0%;
+  max-width: 80%;
+    text-align: center
 }
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.story-content figure {
+    width: 130%;
+    
+    
+}
+
 
 #header {
   position: fixed;
@@ -50,12 +113,12 @@ h6 { /*Header para article e index h3*/
 
 .story-header{
   margin-bottom: 40px;
+  padding-bottom: 20px;
   border-bottom: 2px solid #e2e2e2;
 }
 
 #hero-image {
-    height: 580px;
-    padding-top: 1px;
+    height: 480px;
     background-color: black;
     background: url('https://assets.grilld.com.au/images/News-Article-Imagery/2017/Baby-Driver-news-header.jpg?mtime=20170621161247') center;
 }

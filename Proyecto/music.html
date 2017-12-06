@@ -16,6 +16,9 @@
             <input type="checkbox" id="menu-bar">
             <label class="icon-menu" for="menu-bar"></label>            
             <nav class="menu music">
+               <form>
+                  <input type="text" name="search" placeholder="Buscar..">
+                </form> 
                 <a href="movies.html">Películas</a>
                 <a href="shows.html">Series</a>
                 <a href="music.html">Música</a>
@@ -25,12 +28,10 @@
             </nav>
         </div>
     </header>
-              
-    <script src="js/slider.js"></script>
     
     <section class="main-content">
         <h2>Música reciente</h2>
-		<ul class="grid">
+		<ul class="grid muisc">
 			<li>
 				<div class="box">
 					<a href="j.html">
@@ -299,7 +300,7 @@
                   <p>&copy; 2017 Punto Medio. Todos los derechos reservados.</p>
         </div>
     </footer> 
-    <button onclick="topFunction()" id="button_top" title="Ir hasta arriba">Arriba</button>
+    <button class="music" onclick="topFunction()" id="button_top" title="Ir hasta arriba">Arriba</button>
     <script src="js/upper.js"></script>
 </body>
 
