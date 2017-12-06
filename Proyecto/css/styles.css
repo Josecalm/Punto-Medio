@@ -39,6 +39,15 @@ header{
  background-color: rgba(211, 47, 47, 0.9);
 }
 
+.shows {
+ background-color: rgba(255, 152, 00, 0.9);
+}
+
+.music {
+ background-color: rgba(00, 200, 83, 0.9);
+}
+
+
 header ul li{
     list-style: none;
 }
