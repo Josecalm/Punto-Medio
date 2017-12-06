@@ -1,0 +1,133 @@
+h6 { /*Header para article e index h3*/
+  font-weight: 300;
+  color: white;
+  font-size: 55px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.content {/* ARTICLE: Inicia-----------------------------------------------------------------------*/
+  margin: 73px 0px 0px 0px;
+  background-color: #F5F5F5;
+  border-color: black;
+}
+
+.breadcrumbs {
+  display: flex;  
+  justify-content: initial  ;
+  align-items: left;
+  background-color: black;
+  padding: 1% 11%;
+}
+
+.story:hover{
+    text-decoration: underline;
+}
+
+.story-content{
+  padding: 40px;
+  background-color: white;
+  width:60%;
+  text-align: left;
+  margin: 2% 20% 0% 10%;
+  border-radius: 15px;
+  /*border:  1px solid gray;*/
+}
+
+.figcaption{
+  color: #424242;
+  font-size: 12px;
+}
+
+#header {
+  position: fixed;
+}
+
+.story-title{
+  color: black;
+}
+
+.story-header{
+  margin-bottom: 40px;
+  border-bottom: 2px solid #e2e2e2;
+}
+
+#hero-image {
+    height: 580px;
+    padding-top: 1px;
+    background-color: black;
+    background: url('https://assets.grilld.com.au/images/News-Article-Imagery/2017/Baby-Driver-news-header.jpg?mtime=20170621161247') center;
+}
+#hero-image h3 {
+    margin: 180px 0 40px 0;
+}
+
+
+/*INCIA: Estilo para los comentarios*/
+.comments{
+  padding: 15px 10px 50px 10px;
+  border: 2px solid #EEEEEE;
+  border-radius: 15px;
+  background-color: #FAFAFA;
+}
+
+.user-comment{
+  background-color: #EEEEEE;
+  padding: 10px;
+  width: 100%;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+
+.children{
+  margin-left: 40px;
+}
+
+.test{
+  color: black;
+}
+
+.ta-comment{
+  width: 100%;
+  border-radius: 10px;
+  border: 2px solid #EEEEEE;
+}
+
+.btn-reply{
+    padding: 8px;
+    font-weight: 600;
+    font-size: 12px;
+    color: #ffffff;
+    border-radius: 10px;
+    border: 0px solid #EEEEEE;
+    background-color: gray;
+    cursor: pointer;
+
+}
+
+#btn-submit{
+    padding: 8px;
+    font-weight: 600;
+    font-size: 12px;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 0px solid #EEEEEE;
+    background-color: green;
+}
+
+.btn-reply:hover{
+  background-color: #555;
+}
+#btn-submit:hover{
+  background-color: #555;
+}
+
+/*TERMINA: Estilo para los comentarios*/
+
+.login-register {
+  padding: 5px;
+  margin-top: 7px;
+  color: white;
+}/* ARTICLE: Termina**********************************************************************************/
