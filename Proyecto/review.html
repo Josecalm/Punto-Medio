@@ -9,6 +9,7 @@
 		<link rel="stylesheet" type="text/css" href="css/styles.css">    
         <link rel="stylesheet" href="css/fontello.css">
 	    <script type="text/javascript" src="js/script.js"></script>
+	    <script src="js/ckeditor/ckeditor.js"></script>
 	</head>
 	<body class="article-content">
 		<button onclick="topFunction()" id="button_top" title="Ir hasta arriba">Arriba</button>
@@ -76,11 +77,13 @@
 				<div>
 					<h2 class="story-title">4 comentarios</h2>
 				</div>
-				<div>
-					<textarea class="ta-comment" rows="5"></textarea>
-					<div align="right"><input type="submit" name="enviar" id="btn-submit"> </input></div>
-					
-				</div>
+				<form>
+					<textarea name="ta-comment" id="ta-comment" class="ta-comment" rows="5"></textarea>
+					<script>
+					    CKEDITOR.replace( 'ta-comment' );
+					</script>
+					<div align="right"><input type="submit" name="enviar" id="btn-submit"> </input></div>					
+				</form>
 				<div>
 					<ul class="comments">
 						<li class="thread-comment">								
