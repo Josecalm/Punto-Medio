@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Punto · Medio</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="js/script.js"></script>
+    <script src="js/ckeditor/ckeditor.js"></script>
+  </head>
+  <body>
+    <header class="index">
+        <div class="container">
+            <h1 id="logo"><a href="index.html">Punto · Medio</a></h1>             
+            <input type="checkbox" id="menu-bar">
+            <label class="icon-menu" for="menu-bar"></label>                                   
+            <nav class="menu">           
+                <form>
+                  <input type="text" name="search" placeholder="Buscar..">
+                </form> 
+                <a href="movies.html">Películas</a>
+                <a href="shows.html">Series</a>
+                <a href="music.html">Música</a>
+                <a href=""></a>
+                <a href="login.html">Registrarme</a>
+                <a href="login.html">Entrar</a>                  
+            </nav>
+        </div>
+    </header>
+    <div class="post-form">
+      <form>
+        <h2 id="post-title">Contenido Principal</h2>
+        <strong>Título de cabecera:</strong><br>
+        <input class="input-42" type="text" name="title" required><br> <br>
+        <strong>Enlace de imagen de cabecera:</strong><br>
+        <input class="input-42" type="text" name="image" required><br> <br>
+        <strong>Contenido:</strong><br>
+        <textarea name="content" id="content" rows="10" cols="100%" required></textarea> <br> <br>
+        <strong>Calificación:</strong><br>
+        <input class="input-42" type="number" name="rating" step=".5" min="0" max="5" placeholder="1 a 5 estrellas" required><br> <br>
+        <h2 id="post-title">Ficha técnica</h2>
+        <strong>Duración:</strong><br>
+        <input class="input-42" type="text" name="duration" required><br>
+        <strong>Estreno:</strong><br>
+        <input class="input-42" type="text" name="duration" required><br>
+        <strong>Categoría:</strong><br>
+        <input class="input-42" type="text" name="duration" required><br>
+        <strong>Director:</strong><br>
+        <input class="input-42" type="text" name="duration" required><br>
+        <strong>Guión:</strong><br>
+        <input class="input-42" type="text" name="duration" required><br>
+        <strong>Reparto:</strong><br>
+        <input class="input-42" type="text" name="duration" required><br>
+        <button class="button blue large" type="submit" id="submit-review" onclick="document.getElementById('success-modal').style.display='block'">Enviar</button>
+        <script>
+            CKEDITOR.replace('content');  
+        </script>
+      </form>
+    </div>
+    <footer>
+       <div class="footer-info">
+        <ol>
+          <li><h4>Síguenos</h4></li>
+          <li><a href="https://twitter.com">Twitter</a></li>
+          <li><a href="https://facebook.com">Facebook</a></li>
+          <li><a href="https://youtube.com">Youtube</a></li>
+        </ol>
+        <ol>
+          <li><h4>Información</h4></li>
+          <li><a href="site-info.html">Quiénes somos</a></li>
+          <li><a href="writers.html">Editores</a></li>
+        </ol>   
+       </div>
+        
+        <div>
+                  <p>&copy; 2017 Punto Medio. Todos los derechos reservados.</p>
+        </div>
+    </footer> 
+    <button onclick="topFunction()" id="button_top" title="Ir hasta arriba">Arriba</button>
+    <script src="js/upper.js"></script>
+  </body>
+</html>
