@@ -61,7 +61,7 @@ h6 { /*Header para article e index h3*/
   margin: 2% 5%;
   text-align: left;
   border-radius: 5px;
-    text-align: justify
+    text-align: justify;
 }
 
 .story-content ul li {
@@ -73,7 +73,7 @@ h6 { /*Header para article e index h3*/
   font-size: 12px;
   margin: 1% 5% 2% 0%;
   max-width: 80%;
-    text-align: center
+    text-align: center;
 }
 
 .video-container {
