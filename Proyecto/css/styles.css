@@ -65,7 +65,9 @@ footer{
 }
 
 footer p {
-    padding: 20px 0 0 0;
+    padding: 10px 0 0 0;
+    font-size: 12px;
+    text-align: center;
 }
 
 
@@ -82,12 +84,14 @@ footer p {
     color: gray;    
 }
 
-footer ol li {
+footer ol li{
     list-style-type: none;
-    margin: 5px 20px 0 120px;
+    margin: 5% 0% 0% 0%;
 }
 
-
+footer ol {
+    margin: 0% 5% 0% 5%;
+}
 
 
 #button_top {
@@ -127,14 +131,32 @@ nav form input[type=text]:focus {
     width: 50%;
 }
 
-@media(min-width:1080px){
+@media(min-width:1000px){
     nav form input[type=text]:focus {
         width: 95%;
     }
     nav form input[type=text] {
         width: 60%;
     }
+    
+    footer p {
+        font-size: 14px;
+        text-align: left;
+    }
+    
+    footer ol li{
+        column-count: 2;
+        -webkit-column-gap: 3em;
+        -moz-column-gap: 3em;
+        -ms-column-gap: 3em;
+        -o-column-gap: 3em;
+        column-gap: 3em; 
+    }
 }
 
 
+.box img {
+    display: block;
+    color: black;
+}
 

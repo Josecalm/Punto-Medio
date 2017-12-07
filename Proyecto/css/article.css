@@ -1,8 +1,17 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
 h6 { /*Header para article e index h3*/
-  padding: 200px 0;
+  padding: 70px 0;
   font-weight: 300;
   color: white;
-  font-size: 55px;
+  font-size: 50px;
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 20px;
@@ -14,12 +23,17 @@ h6 { /*Header para article e index h3*/
   border-color: black;
 }
 
+.content p {
+    font-size: 12px;
+}
+
+
 .breadcrumbs {
   display: flex;  
   justify-content: initial  ;
   align-items: left;
   background-color: black;
-  padding: 1% 11%;
+  padding: 1% 0% 1% 5%;
 }
 
 .breadcrumbs a {
@@ -27,45 +41,13 @@ h6 { /*Header para article e index h3*/
 }
 
 .story-content{
-  padding: 40px;
+  padding: 10px;
   background-color: white;
   width:90%;
   margin: 2% 5%;
   text-align: left;
   border-radius: 5px;
     text-align: justify
-}
-
-@media(min-width:480px){   
-  .story-content{
-      padding: 40px;
-      background-color: white;
-      width:80%;
-      margin: 2% 5%;
-      text-align: left;
-      border-radius: 5px;
-  }
-    .story-content iframe {        
-        
-    }
-}
-
-@media(min-width:1080px){    
-  .story-content{
-      padding: 40px;
-      background-color: white;
-      width:60%;
-      margin: 2% 5%;
-      text-align: left;
-      border-radius: 5px;
-      margin-left: 200px;
-  }
-
-.story-content figure {
-    width: 130%;
-    margin: 5% 0% 5% 0%;
-    
-}
 }
 
 .story-content ul li {
@@ -97,9 +79,7 @@ h6 { /*Header para article e index h3*/
 }
 
 .story-content figure {
-    width: 130%;
-    
-    
+    width: 130%;    
 }
 
 
@@ -118,12 +98,9 @@ h6 { /*Header para article e index h3*/
 }
 
 #hero-image {
-    height: 480px;
+    height: 300px;
     background-color: black;
     background: url('https://assets.grilld.com.au/images/News-Article-Imagery/2017/Baby-Driver-news-header.jpg?mtime=20170621161247') center;
-}
-#hero-image h3 {
-    margin: 180px 0 40px 0;
 }
 
 
@@ -194,3 +171,76 @@ h6 { /*Header para article e index h3*/
   margin-top: 7px;
   color: white;
 }/* ARTICLE: Termina**********************************************************************************/
+.breadcrumbs a {
+    text-decoration: none;
+    font-size: 12px;
+}
+
+#item {
+    margin-left: 30px; 
+}
+
+@media(min-width: 480px){
+    .breadcrumbs a {
+        font-size: 14px;
+    }
+    #item {
+        margin-left: 150px;
+    }
+    
+    .story-content{
+      padding: 40px;
+      background-color: white;
+      width:80%;
+      margin: 2% 5%;
+      text-align: left;
+      border-radius: 5px;
+    }
+    .story-content iframe {        
+        
+    }
+}
+
+@media(min-width: 680px){
+    #item {
+        margin-left: 300px;
+    }
+}
+
+@media(min-width: 1000px){
+    .breadcrumbs{
+        font-size: 16px;
+        padding: 1% 15%;
+    }
+    #item {
+        margin-left: 450px;
+    }
+    
+    .story-content{
+      padding: 40px;
+      background-color: white;
+      width:60%;
+      margin: 2% 5%;
+      text-align: left;
+      border-radius: 5px;
+      margin-left: 200px;
+    }
+
+    .story-content figure {
+        width: 130%;
+        margin: 5% 0% 5% 0%;
+    }
+    
+    .content p {
+        font-size: 14px;
+    }
+    
+    h6{
+        font-size: 60px;
+    }
+}
+
+.breadcrumbs p {
+    color: white;
+    text-align: right;
+}
