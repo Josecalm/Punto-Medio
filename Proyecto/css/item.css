@@ -1,0 +1,21 @@
+
+.item-content{
+    margin: 50px;
+}
+
+.item-content ul {
+  float: left;
+    display: inline;
+}
+
+.item-content h1 {
+    text-align: center;
+}
+
+.item-content .grid{
+    background-color: #EEEEEE;
+    border: solid 2px gray;
+}
+
+.item-info{
+}
