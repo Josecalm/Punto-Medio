@@ -1,0 +1,246 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+h6 { /*Header para article e index h3*/
+  padding: 70px 0;
+  font-weight: 300;
+  color: white;
+  font-size: 50px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.content {/* ARTICLE: Inicia-----------------------------------------------------------------------*/
+  margin: 50px 0px 0px 0px;
+  background-color: #F5F5F5;
+  border-color: black;
+}
+
+.content p {
+    font-size: 12px;
+}
+
+
+.breadcrumbs {
+  display: flex;  
+  justify-content: initial  ;
+  align-items: left;
+  background-color: black;
+  padding: 1% 0% 1% 5%;
+}
+
+.breadcrumbs a {
+    color: white;
+}
+
+.story-content{
+  padding: 10px;
+  background-color: white;
+  width:90%;
+  margin: 2% 5%;
+  text-align: left;
+  border-radius: 5px;
+    text-align: justify
+}
+
+.story-content ul li {
+    list-style-type: none;
+}
+
+.story-content .figcaption{
+  color: #424242;
+  font-size: 12px;
+  margin: 1% 5% 2% 0%;
+  max-width: 80%;
+    text-align: center
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.story-content figure {
+    width: 130%;    
+}
+
+
+#header {
+  position: fixed;
+}
+
+.story-title{
+  color: black;
+}
+
+.story-header{
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #e2e2e2;
+}
+
+#hero-image {
+    height: 300px;
+    background-color: black;
+    background: url('https://assets.grilld.com.au/images/News-Article-Imagery/2017/Baby-Driver-news-header.jpg?mtime=20170621161247') center;
+}
+
+
+/*INCIA: Estilo para los comentarios*/
+.comments{
+  padding: 15px 10px 50px 10px;
+  border: 2px solid #EEEEEE;
+  border-radius: 15px;
+  background-color: #FAFAFA;
+}
+
+.user-comment{
+  background-color: #EEEEEE;
+  padding: 10px;
+  width: 100%;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+
+.children{
+  margin-left: 40px;
+}
+
+.test{
+  color: black;
+}
+
+.ta-comment{
+  width: 100%;
+  border-radius: 10px;
+  border: 2px solid #EEEEEE;
+}
+
+.btn-reply{
+    padding: 8px;
+    font-weight: 600;
+    font-size: 12px;
+    color: #ffffff;
+    border-radius: 10px;
+    border: 0px solid #EEEEEE;
+    background-color: gray;
+    cursor: pointer;
+
+}
+
+#btn-submit{
+    padding: 8px;
+    font-weight: 600;
+    font-size: 12px;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 0px solid #EEEEEE;
+    background-color: green;
+}
+
+.btn-reply:hover{
+  background-color: #555;
+}
+#btn-submit:hover{
+  background-color: #555;
+}
+
+/*TERMINA: Estilo para los comentarios*/
+
+.login-register {
+  padding: 5px;
+  margin-top: 7px;
+  color: white;
+}/* ARTICLE: Termina**********************************************************************************/
+.breadcrumbs a {
+    text-decoration: none;
+    font-size: 12px;
+}
+
+#item {
+    margin-left: 30px; 
+}
+
+@media(min-width: 480px){
+    .breadcrumbs a {
+        font-size: 14px;
+    }
+    #item {
+        margin-left: 150px;
+    }
+    
+    .story-content{
+      padding: 40px;
+      background-color: white;
+      width:80%;
+      margin: 2% 5%;
+      text-align: left;
+      border-radius: 5px;
+    }
+    .story-content iframe {        
+        
+    }
+}
+
+@media(min-width: 680px){
+    #item {
+        margin-left: 300px;
+    }
+}
+
+@media(min-width: 1000px){
+    .breadcrumbs{
+        font-size: 16px;
+        padding: 1% 15%;
+    }
+    #item {
+        margin-left: 450px;
+    }
+    
+    .story-content{
+      padding: 40px;
+      background-color: white;
+      width:60%;
+      margin: 2% 5%;
+      text-align: left;
+      border-radius: 5px;
+      margin-left: 200px;
+    }
+
+    .story-content figure {
+        width: 130%;
+        margin: 5% 0% 5% 0%;
+    }
+    
+    .content p {
+        font-size: 14px;
+    }
+    
+    h6{
+        font-size: 60px;
+    }
+}
+
+.breadcrumbs p {
+    color: white;
+    text-align: right;
+}
