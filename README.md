@@ -10,7 +10,7 @@ A través de reseñas escritas por editores selectos, en las cuales los usuarios
 
 ## Sitio
 
-https://goo.gl/9GhNPs
+https://goo.gl/eyNMFn
 
 ## Tecnologías
 
