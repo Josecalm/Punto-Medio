@@ -1,0 +1,813 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"A",
+				"Access-Control-Allow-Headers"
+			],
+			[
+				"upload",
+				"uploadImage"
+			],
+			[
+				"findByI",
+				"findByIdAndUpdate"
+			],
+			[
+				"path",
+				"path_file"
+			],
+			[
+				"item",
+				"itemUpdated"
+			],
+			[
+				"find",
+				"findByIdAndUpdate"
+			],
+			[
+				"update",
+				"updateItem"
+			],
+			[
+				"getI",
+				"getItems"
+			],
+			[
+				"upda",
+				"updateUser"
+			],
+			[
+				"au",
+				"authorization"
+			],
+			[
+				"b",
+				"bcrypt"
+			],
+			[
+				"el",
+				"else"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"req",
+				"require"
+			],
+			[
+				"Comm",
+				"CommentSchema"
+			],
+			[
+				"Us",
+				"UserSchema"
+			],
+			[
+				"body",
+				"bodyParser"
+			],
+			[
+				"tran",
+				"transition-duration"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"si",
+				"box-sizing"
+			],
+			[
+				"re",
+				"required\tAttr"
+			],
+			[
+				"fil",
+				"filter"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"padi",
+				"padding-top"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"inl",
+				"inline"
+			],
+			[
+				"butt",
+				"button-default"
+			],
+			[
+				"in",
+				"inline-flex"
+			],
+			[
+				"flex",
+				"inline-flex"
+			],
+			[
+				"ali",
+				"align-items"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"te",
+				"title\tAttr"
+			],
+			[
+				"show",
+				"showMorePosts"
+			],
+			[
+				"l",
+				"li\tTag"
+			],
+			[
+				"max",
+				"maxEstimatedTime"
+			],
+			[
+				"tt",
+				"tt"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"alig",
+				"text-align"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"bottom",
+				"margin-bottom"
+			],
+			[
+				"bott",
+				"border-bottom"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"sub",
+				"submit"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"r",
+				"rgba()"
+			],
+			[
+				"magi",
+				"margin-bottom"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"log",
+				"login__register"
+			],
+			[
+				"bn",
+				"btn__form"
+			],
+			[
+				"ht",
+				"html"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"sty",
+				"style"
+			],
+			[
+				"i",
+				"inherit"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"btn",
+				"btn__form"
+			],
+			[
+				"fle",
+				"flex"
+			],
+			[
+				"lef",
+				"margin-left"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"story",
+				"story-content"
+			],
+			[
+				"top",
+				"margin-top"
+			],
+			[
+				"bak",
+				"background-color"
+			],
+			[
+				"siz",
+				"font-size"
+			],
+			[
+				"fi",
+				"figcaption\tTag"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"a",
+				"alt\tAttr"
+			],
+			[
+				"im",
+				"iframe\tTag"
+			],
+			[
+				"articl",
+				"article-title"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"brder-co",
+				"border-color"
+			],
+			[
+				"artc",
+				"article-summary"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"spa",
+				"space-between"
+			],
+			[
+				"conte",
+				"justify-content"
+			],
+			[
+				"col-md-",
+				"col-md-4"
+			],
+			[
+				"pull",
+				"pull-right"
+			],
+			[
+				"materi",
+				"material-icons"
+			],
+			[
+				"cent",
+				"card-content"
+			],
+			[
+				"la",
+				"label-floating"
+			],
+			[
+				"lab",
+				"label-floating"
+			],
+			[
+				"pull-",
+				"pull-right"
+			],
+			[
+				"inline",
+				"inline-flex"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"face",
+				"Facebook"
+			],
+			[
+				"htt",
+				"https"
+			],
+			[
+				"btn-",
+				"btn-primary"
+			],
+			[
+				"navba",
+				"navbar-header"
+			],
+			[
+				"cont",
+				"control-label"
+			],
+			[
+				"if",
+				"ifmain\tif __name__ == '__main__'"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "client/src/app/app.component.ts",
+			"settings":
+			{
+				"buffer_size": 1857,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "client/src/app/services/global.ts",
+			"settings":
+			{
+				"buffer_size": 76,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/miC++.sublime-build",
+					""
+				],
+				[
+					"Packages/User/miC++.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/User/miC++.sublime-build",
+				"Run"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/wamp64/www/punto-medio",
+		"/C/wamp64/www/punto-medio/api",
+		"/C/wamp64/www/punto-medio/api/controllers",
+		"/C/wamp64/www/punto-medio/api/middlewares",
+		"/C/wamp64/www/punto-medio/api/models",
+		"/C/wamp64/www/punto-medio/api/routes",
+		"/C/wamp64/www/punto-medio/client",
+		"/C/wamp64/www/punto-medio/client/e2e",
+		"/C/wamp64/www/punto-medio/client/src",
+		"/C/wamp64/www/punto-medio/client/src/app",
+		"/C/wamp64/www/punto-medio/client/src/app/services",
+		"/C/wamp64/www/punto-medio/client/src/environments"
+	],
+	"file_history":
+	[
+		"/C/wamp64/www/punto-medio/client/src/app/services/user.service.ts",
+		"/C/wamp64/www/punto-medio/client/src/app/app.component.html",
+		"/C/wamp64/www/punto-medio/api/controllers/user.js",
+		"/C/wamp64/www/punto-medio/client/src/app/services/global.ts",
+		"/C/wamp64/www/punto-medio/client/src/index.html",
+		"/C/Users/Angel/OneDrive/CUCEI/2017B - 8vo Semestre/PPI/Proyecto/Punto-Medio/Proyecto/login.html",
+		"/C/wamp64/www/punto-medio/client/src/app/models/post.ts",
+		"/C/wamp64/www/punto-medio/client/src/app/models/item.ts",
+		"/C/wamp64/www/punto-medio/client/src/app/models/user.ts",
+		"/C/Users/Angel/OneDrive/CUCEI/2017B - 8vo Semestre/PPI/Proyecto/Punto-Medio/Proyecto/index.html",
+		"/C/wamp64/www/punto-medio/app.js",
+		"/C/wamp64/www/punto-medio/models/post.js",
+		"/C/wamp64/www/punto-medio/routes/post.js",
+		"/C/wamp64/www/punto-medio/controllers/post.js",
+		"/C/wamp64/www/punto-medio/controllers/item.js",
+		"/C/wamp64/www/punto-medio/routes/item.js",
+		"/C/wamp64/www/punto-medio/models/item.js",
+		"/C/wamp64/www/punto-medio/models/comment.js",
+		"/C/wamp64/www/punto-medio/controllers/user.js",
+		"/C/wamp64/www/punto-medio/index.js",
+		"/C/wamp64/www/punto-medio/routes/user.js",
+		"/C/wamp64/www/punto-medio/models/review.js",
+		"/C/wamp64/www/punto-medio/package.json",
+		"/C/wamp64/www/punto-medio/p-punto-medio.sublime-project",
+		"/C/wamp64/www/punto-medio/package-lock.json",
+		"/C/wamp64/www/punto-medio/middlewares/authenticated.js",
+		"/C/wamp64/www/punto-medio/services/jwt.js",
+		"/C/wamp64/www/punto-medio/models/user.js",
+		"/C/cygwin64/home/Angel/.bash_profile",
+		"/C/Users/Angel/OneDrive/CUCEI/2017B - 8vo Semestre/SSO/Actividades/Programas/Actividad 8/Programa4 - copia/main.cpp",
+		"/C/Users/Angel/Desktop/main.xaml.cs",
+		"/C/Program Files/CPUID/CPU-Z/cpuz_readme.txt",
+		"/C/Users/Angel/OneDrive/CUCEI/2017B - 8vo Semestre/PPI/Proyecto/Punto-Medio/Proyecto/css/style.css",
+		"/C/Users/Angel/OneDrive/CUCEI/2017B - 8vo Semestre/SSO/Califs.txt",
+		"/C/Users/Angel/OneDrive/CUCEI/2017B - 8vo Semestre/SSO/Actividades/Programas/Actividad 8/Programa4/main.cpp",
+		"/C/Users/Angel/OneDrive/CUCEI/2017B - 8vo Semestre/PPI/Proyecto/Punto-Medio/Proyecto/new-review.html",
+		"/C/Users/Angel/OneDrive/CUCEI/2017B - 8vo Semestre/PPI/Proyecto/Punto-Medio/Proyecto/user-index.html",
+		"/C/Users/Angel/OneDrive/CUCEI/2017B - 8vo Semestre/PPI/Proyecto/iss11 - Responsive/css/styles.css",
+		"/C/Users/Angel/OneDrive/CUCEI/2017B - 8vo Semestre/PPI/Proyecto/iss11 - Responsive/styles.css",
+		"/C/Users/Angel/OneDrive/CUCEI/2017B - 8vo Semestre/PPI/Proyecto/Punto-Medio/Proyecto/users.html",
+		"/C/Users/Angel/OneDrive/CUCEI/2017B - 8vo Semestre/PPI/Proyecto/Punto-Medio/Proyecto/js/script.js",
+		"/C/Users/Angel/OneDrive/CUCEI/2017B - 8vo Semestre/PPI/Proyecto/Punto-Medio/Proyecto/user.html",
+		"/C/Users/Angel/OneDrive/CUCEI/2017B - 8vo Semestre/PPI/Proyecto/Punto-Medio/Proyecto/posts.html",
+		"/C/Users/Angel/OneDrive/CUCEI/2017B - 8vo Semestre/PPI/Proyecto/Punto-Medio/Proyecto/new-post.html",
+		"/C/Users/Angel/OneDrive/CUCEI/2017B - 8vo Semestre/PPI/Proyecto/Punto-Medio/Proyecto/pw-reset.html",
+		"/C/Users/Angel/OneDrive/CUCEI/2017B - 8vo Semestre/PPI/Proyecto/Punto-Medio/Proyecto/shows.html",
+		"/C/Users/Angel/OneDrive/CUCEI/2017B - 8vo Semestre/PPI/Proyecto/Punto-Medio/Proyecto/signup.html",
+		"/C/Users/Angel/OneDrive/CUCEI/2017B - 8vo Semestre/PPI/Proyecto/Punto-Medio/Proyecto/music.html",
+		"/C/Users/Angel/OneDrive/CUCEI/2017B - 8vo Semestre/PPI/Proyecto/Punto-Medio/Proyecto/movies.html",
+		"/C/Users/Angel/OneDrive/CUCEI/2017B - 8vo Semestre/PPI/Proyecto/Punto-Medio/Proyecto/article.html",
+		"/C/Users/Angel/OneDrive/CUCEI/2017B - 8vo Semestre/PPI/Proyecto/Punto-Medio/Proyecto/admin-index.html",
+		"/C/Users/Angel/OneDrive/CUCEI/2017B - 8vo Semestre/PPI/Proyecto/Punto-Medio/Proyecto/account.html",
+		"/C/Users/Angel/AppData/Roaming/Sublime Text 3/Packages/User/miC++.sublime-build",
+		"/C/Users/Angel/OneDrive/CUCEI/2017B - 8vo Semestre/SSO/Acts/Actividad_4/main.c",
+		"/C/Users/Angel/OneDrive/CUCEI/2017B - 8vo Semestre/PPI/Proyecto/Punto-Medio/Proyecto/section.html",
+		"/C/Users/Angel/Desktop/holamundo.py",
+		"/C/Users/Angel/Desktop/test.txt",
+		"/C/Users/Angel/OneDrive/CUCEI/2017B - 8vo Semestre/SSO/Actividades/Actividad 4/Programa2/main.cpp",
+		"/C/Users/Angel/OneDrive/CUCEI/2017B - 8vo Semestre/SSO/Actividades/Actividad 4/Programa2/p4.cpp",
+		"/C/Users/Angel/OneDrive/CUCEI/2017B - 8vo Semestre/SSO/Acts/Actividad_3/queue.h",
+		"/C/Users/Angel/OneDrive/CUCEI/2017B - 8vo Semestre/SSO/Acts/Actividad_3/main.c",
+		"/C/Users/Angel/OneDrive/CUCEI/2017B - 8vo Semestre/SSO/Acts/Actividad_2/main.c",
+		"/C/Users/Angel/OneDrive/CUCEI/CGTI/Proyecto/proyect/minuta-detalles.html",
+		"/C/Users/Angel/OneDrive/CUCEI/2017B - 8vo Semestre/PPI/Proyecto/iss1/Punto-Medio/Proyecto/css/style.css",
+		"/C/Users/Angel/OneDrive/CUCEI/CGTI/Proyecto/proyect/minutas.html",
+		"/C/Users/Angel/OneDrive/CUCEI/CGTI/Proyecto/proyect/perfil.html",
+		"/C/Users/Angel/OneDrive/CUCEI/CGTI/Proyecto/proyect/nueva.html",
+		"/C/Users/Angel/OneDrive/CUCEI/2017B - 8vo Semestre/Sistemas Distribuidos/Proyecto/seguridad-gdl/Maquetado-Principal/admin/login-admin.html",
+		"/C/Users/Angel/OneDrive/CUCEI/2017B - 8vo Semestre/PPI/Proyecto/old/TodoFinal/Punto-Medio/Proyecto/css/proyecto.css",
+		"/C/Users/Angel/OneDrive/CUCEI/2017B - 8vo Semestre/PPI/Proyecto/Punto-Medio/Proyecto/css/signup.css",
+		"/C/Users/Angel/OneDrive/CUCEI/2017B - 8vo Semestre/PPI/Proyecto/Punto-Medio/Proyecto/css/modal.css",
+		"/C/Users/Angel/OneDrive/CUCEI/2017B - 8vo Semestre/PPI/Proyecto/test.html",
+		"/C/Users/Angel/OneDrive/CUCEI/2017B - 8vo Semestre/PPI/Proyecto/test.css",
+		"/C/Users/Angel/OneDrive/CUCEI/2017B - 8vo Semestre/PPI/Proyecto/TodoFinal/Punto-Medio/Proyecto/index.html",
+		"/C/Users/Angel/OneDrive/CUCEI/2017B - 8vo Semestre/PPI/Proyecto/Punto-Medio/Proyecto/css/proyecto.css",
+		"/C/Users/Angel/OneDrive/CUCEI/2017B - 8vo Semestre/PPI/Proyecto/Punto-Medio/Proyecto/css/article.css",
+		"/C/Users/Angel/OneDrive/CUCEI/2017B - 8vo Semestre/PPI/Proyecto/Punto-Medio/Proyecto/css/account.css",
+		"/C/Users/Angel/OneDrive/CUCEI/2017B - 8vo Semestre/PPI/Proyecto/TodoFinal/Punto-Medio/Proyecto/movies.html",
+		"/C/Users/Angel/OneDrive/CUCEI/2017B - 8vo Semestre/PPI/Proyecto/TodoFinal/Punto-Medio/Proyecto/article.html",
+		"/C/Users/Angel/OneDrive/CUCEI/2017B - 8vo Semestre/PPI/Proyecto/test/css/proyecto.css",
+		"/C/Users/Angel/OneDrive/CUCEI/2017B - 8vo Semestre/PPI/Proyecto/i1/Punto-Medio/Proyecto/css/proyecto.css",
+		"/C/Users/Angel/OneDrive/CUCEI/2017B - 8vo Semestre/PPI/Proyecto/i1/Punto-Medio/Proyecto/index.html",
+		"/C/Users/Angel/OneDrive/CUCEI/2017B - 8vo Semestre/PPI/Proyecto/test/index.html",
+		"/C/Users/Angel/OneDrive/CUCEI/2017B - 8vo Semestre/PPI/Proyecto/i1/Punto-Medio/Proyecto/article.html",
+		"/C/Users/Angel/OneDrive/CUCEI/2017B - 8vo Semestre/PPI/Proyecto/i4/section.html",
+		"/C/Users/Angel/Downloads/Redesign _ Ja gut, aber ….htm",
+		"/C/Users/Angel/OneDrive/CUCEI/2017B - 8vo Semestre/PPI/Proyecto/i5/Punto-Medio/Proyecto/css/proyecto.css",
+		"/C/Users/Angel/OneDrive/CUCEI/2017B - 8vo Semestre/PPI/Proyecto/i5/Punto-Medio/Proyecto/review.html",
+		"/C/Users/Angel/OneDrive/CUCEI/2017B - 8vo Semestre/PPI/Proyecto/i5/Punto-Medio/Proyecto/index.html",
+		"/C/Users/Angel/Documents/CUCEI (22-Sep-17)/2017B - 8vo Semestre/PPI/Proyecto/i1/Punto-Medio/Proyecto/index.html",
+		"/C/Users/Angel/Documents/CUCEI (22-Sep-17)/2017B - 8vo Semestre/PPI/Proyecto/i1/Punto-Medio/Proyecto/article.html",
+		"/C/Users/Angel/Documents/CUCEI (22-Sep-17)/2017B - 8vo Semestre/PPI/Proyecto/i1/Punto-Medio/Proyecto/css/proyecto.css",
+		"/C/Users/Angel/Desktop/movie_review_htmls/style.css",
+		"/C/Users/Angel/Documents/CUCEI (22-Sep-17)/2017B - 8vo Semestre/PPI/Proyecto/i1/Punto-Medio/Proyecto/js/plugins-min.js",
+		"/C/Users/Angel/Documents/CUCEI (22-Sep-17)/2017B - 8vo Semestre/PPI/Proyecto/i1/Punto-Medio/Proyecto/js/jquery-1.11.1.min.js",
+		"/C/Users/Angel/Documents/CUCEI (22-Sep-17)/2017B - 8vo Semestre/PPI/Proyecto/i1/Punto-Medio/Proyecto/js/plugins.js",
+		"/C/Users/Angel/Documents/CUCEI (22-Sep-17)/CGTI/Proyecto/proyect/minutas.html",
+		"/C/Users/Angel/Documents/CUCEI (22-Sep-17)/CGTI/Proyecto/proyect/nueva.html",
+		"/C/Users/Angel/OneDrive/CUCEI/CGTI/Proyecto/proyect/pendientes.html",
+		"/C/Users/Angel/OneDrive/CUCEI/CGTI/Proyecto/proyect/user.html",
+		"/C/Users/Angel/OneDrive/CUCEI/2017B - 8vo Semestre/PPI/Proyecto/i1/Punto-Medio/Proyecto/style.css",
+		"/C/Users/Angel/OneDrive/CUCEI/CGTI/Proyecto/proyect/new.html",
+		"/C/Users/Angel/Downloads/movie_review_htmls/style.css",
+		"/C/Users/Angel/Downloads/movie_review_htmls/single.html",
+		"/C/Users/Angel/OneDrive/CUCEI/2017B - 8vo Semestre/Sistemas Distribuidos/Proyecto/Maquetado Principal/proyect/user.html",
+		"/C/Users/Angel/Downloads/movie_review_htmls/review.html",
+		"/C/Users/Angel/OneDrive/CUCEI/2017B - 8vo Semestre/Sistemas Distribuidos/Proyecto/Maquetado Principal/proyect/reports.html",
+		"/C/Users/Angel/OneDrive/CUCEI/2017B - 8vo Semestre/Sistemas Distribuidos/Proyecto/Maquetado Principal/proyect/new.html",
+		"/C/Users/Angel/OneDrive/CUCEI/2017B - 8vo Semestre/Sistemas Distribuidos/Proyecto/Maquetado Principal/proyect/maps.html",
+		"/C/Users/Angel/OneDrive/CUCEI/2017B - 8vo Semestre/Sistemas Distribuidos/Proyecto/Maquetado Principal/proyect/index2.html",
+		"/C/Users/Angel/OneDrive/CUCEI/2017B - 8vo Semestre/Sistemas Distribuidos/Proyecto/Maquetado Principal/proyect/index.html",
+		"/C/Users/Angel/OneDrive/CUCEI/2017B - 8vo Semestre/Sistemas Distribuidos/Proyecto/Maquetado Principal/proyect/exit.html",
+		"/C/Users/Angel/OneDrive/CUCEI/2017B - 8vo Semestre/Sistemas Distribuidos/Proyecto/Maquetado Principal/proyect/chat.html",
+		"/C/Users/Angel/OneDrive/CUCEI/2017B - 8vo Semestre/Sistemas Distribuidos/Proyecto/Maquetado Principal/material-dashboard-v1.2.0/proyect/user.html",
+		"/C/Users/Angel/OneDrive/CUCEI/2017B - 8vo Semestre/Sistemas Distribuidos/Proyecto/Maquetado Principal/material-dashboard-v1.2.0/proyect/maps.html",
+		"/C/Users/Angel/OneDrive/CUCEI/2017B - 8vo Semestre/Sistemas Distribuidos/Proyecto/Maquetado Principal/material-dashboard-v1.2.0/proyect/new.html",
+		"/C/Users/Angel/OneDrive/CUCEI/2017B - 8vo Semestre/Sistemas Distribuidos/Proyecto/Maquetado Principal/material-dashboard-v1.2.0/assets/sass/md/_variables.scss",
+		"/C/Users/Angel/Downloads/material-dashboard-v1.2.0/examples/maps.html",
+		"/C/Users/Angel/Downloads/material-dashboard-v1.2.0/examples/dashboard.html",
+		"/C/Users/Angel/Downloads/material-dashboard-v1.2.0/examples/table.html",
+		"/C/Users/Angel/Downloads/material-dashboard-v1.2.0/examples/user.html",
+		"/C/Users/Angel/Desktop/program.py",
+		"/C/Users/Angel/Desktop/index.html",
+		"/C/Users/Angel/Documents/8vo - CUCEI/SSO/Acts/Actividad_1/main.c",
+		"/C/Users/Angel/Documents/8vo - CUCEI/SSO/Acts/Actividad_2/main.c",
+		"/C/Users/Angel/Desktop/CTFexamen.cpp",
+		"/C/Users/Angel/OneDrive/CUCEI/2017A - 7mo Semestre/Calidad Total/TareaFinal/Gráfico-X-R-1.sf6",
+		"/C/Users/Angel/OneDrive/CUCEI/2017A - 7mo Semestre/Calidad Total/TareaFinal/Gráfico-Medianas-Rangos.sgp"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "client/src/app/app.component.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1857,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								865,
+								865
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 408.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "client/src/app/services/global.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 76,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 325.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/C++/C++ Single File.sublime-build",
+	"project": "p-punto-medio.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 230.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
